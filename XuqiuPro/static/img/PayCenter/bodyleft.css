@@ -1,0 +1,9 @@
+.bodyleft{width:280px;float: left;font-family: '微软雅黑';}
+.bodylefttop{background: #f6611f;color: #fff;font-size: 18px;letter-spacing: 1px;height: 45px;text-align: center;line-height: 45px;}
+.bodyleftbottom{border-left: 1px solid #dedede;border-right: 1px solid #dedede;background: #fff;border-bottom: 1px solid #dedede;}
+.tr1{height: 62px;line-height: 62px;}
+.tr1:hover{color:#f6611f;}
+.td1{float:left;width: 67px;text-align: right;}
+.td2{float:right;font-size: 14px;width:211px;cursor: pointer;}
+.td2 span{margin-left: 20px;}
+.clear1{clear:both;width: 278px;height: 1px;background: url(../../Images/PayCenter/form-1.png) no-repeat;}

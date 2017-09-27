@@ -1,0 +1,125 @@
+body:before,.container{
+    display:inline-block;
+    vertical-align:middle;
+}
+
+body:before {
+    content:"";
+    height:100%;
+}
+
+.queryPanel{
+    position: relative;
+
+    width: 280px;
+    height: 250px;
+
+    background-color: #fff;
+    border: 2px solid #000 ;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-box-shadow: #4c454a 0px 0px 30px;
+    -moz-box-shadow: #3f393d 0px 0px 30px;
+    box-shadow: #403b3e 0px 0px 30px;
+}
+
+body{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    text-align:center;
+    background-image: url("../img/furley_bg.png");
+}
+
+.submitWrapper input:focus, .submitWrapper input:active{
+    -moz-outline-style: none;
+    outline: none;
+}
+
+.companyTitle{
+    left: 0px;
+    top: 0px;
+    background: #111111; /* Old browsers */
+
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16pt;
+    text-align: left;
+}
+
+.companyTitle a{
+    margin-left: 20px;
+    color: #FFF;
+}
+
+.queryTitle{
+    padding-top: 10px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.queryTitle a{
+    font-size: 14pt;
+    font-weight: 300;
+    color: #fff;
+}
+
+.fieldsetContainer{
+    margin-top: 30px;
+}
+
+.submitWrapper{
+    text-align: right;
+    border: none;
+}
+
+.submitWrapper:focus{
+    border: none;
+}
+
+.submitWrapper input{
+    position: relative;
+    top: 5px;
+    right: 25px;
+    border: none;
+
+    width: 110px;
+    height: 35px;
+
+    color: #fff;
+    font-size: 13pt;
+    font-weight: 900;
+
+    border: none;
+
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 6px;
+
+    background-color: #111111;
+    cursor: pointer;
+}
+
+.inputWrapper input{
+    width: 190px;
+    height: 35px;
+    margin-bottom: 15px;
+
+    right: 0px;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    border-width: 1px;
+    border-color: #111111;
+}

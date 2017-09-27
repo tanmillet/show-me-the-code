@@ -1,0 +1,23 @@
+*{margin:0;padding: 0;list-style: none;text-decoration: none;}
+body{
+	background: url("../../Images/newc/bodybg.jpg") no-repeat;
+	padding-bottom: 20px;
+}
+.head{background: #fff;}
+.bodycontent{width: 1200px;margin: 0 auto;margin-top: 12px;}
+.bodyright{width: 908px;background: #fff;float: right;}
+.clear2{clear:both;}
+.brtr1{height: 48px;background: #f7f7f7;border:1px solid #dedede;line-height: 48px;}
+.brtr1-l{float: left;margin-left: 15px;font-size: 14px;color: #f6611f;}
+.brtr1-r{float: right;color: #999;}
+.brtr2{font-family: '微软雅黑';padding-bottom: 20px;height: 793px;border-left: 1px solid #dedede;border-right: 1px solid #dedede;border-bottom: 1px solid #dedede;}
+.brtr2-1{width: 520px;height: 304px;background: #fafafa;border: 1px solid #dedede;margin: 0 auto;font-family: '宋体';margin-top: 48px;}
+.page1submit{background: url(../../Images/PayCenter/click.png) no-repeat;margin: 0 auto;width: 285px;height: 47px;margin-top: 340px;cursor: pointer;}
+.current3{color: #f6611f;}
+.trl{text-align: right;}
+.red{color: #f6611f;}
+.brtr2-1-1-t{margin-top: 50px;margin-left: 100px;}
+.brtr2-1-1-t tr{height: 30px;line-height: 30px;}
+.bottombtn{margin: 0 auto;width: 380px;margin-top: 20px;}
+.page2submit{width: 177px;height: 43px;background: url(../../Images/PayCenter/pc1.png) no-repeat;float: left;cursor: pointer;}
+.page2return{width: 177px;height: 43px;background: url(../../Images/PayCenter/pc2.png) no-repeat;float: right;cursor: pointer;}

@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <script src="js_vendors/raphael-min.js"></script>
+        <script src="js_vendors/jquery-1.9.1.js"></script>
+        <script src="js/pre_v1.js" charset="UTF8"></script>
+        <link rel="stylesheet" type="text/css" href="css/queryresult_main.css">
+    </head>
+    <body>
+<div class='header'>
+               <div class='headerWrapper'>
+                    <div class='headerLeft'>
+                        <div class='headerInfoWrapper'>
+                            <a class='contestantName'> Ted X</a>
+                            <a>St.pet dSchool</a>
+                            <a>九年级</a>
+                        </div>
+                    </div>
+
+                    <span>2013年全国初中数学联赛成绩分析</span>
+               </div>
+                <div class='headerRight'>
+                    <span>奥林教育</span>
+                    <img class='logo' src='img/36logo.gif'></div>
+                </div>
+           </div>
+
+        <div class="container">
+            <div id="nav"></div>
+            <div class="content">
+                <div class="paperWrapper">
+                    <div class="paperHeader">
+                        <div name="0" id="nav_0"></div>
+                        <div class='paperTitle'><a>下表为您参加2013全国初中数学联赛的成绩，以及您在不同的数学领域所得到的成绩：</a></div>
+                    </div>
+           <div class='firstcolumn'>
+                    <div class='scoreCell cell'>
+                        <div class='cellMask'></div>
+                        <p>您的试卷得分为</p>
+                        <b>77</b>
+                    </div>
+                    <div class='rankCell cell'>
+                        <p>您所在学校中排名为前</p>
+                            <b id='schoolRank'>0.00%</b>
+                         <p>您在全省考试中中排名为前</p>
+                            <b id='regionRank'>0.00%</b>
+                    </div>
+                    </div>
+                    <div id="detailWrapper">
+                        <div class="answerTitle"><a>您在九年级的作答结果</a></div>
+                        <div id="tableWrapper"></div>
+                    </div>
+
+                    <div class='column'>
+                        <div class='scoreCompareCell cell'>
+                                <p>您的总得分</p>
+                                <div class='scoreWrapper'><div id='yourScore'><a></a></div></div>
+                                <p>您学校的平均得分</p>
+                                <div class='scoreWrapper'><div id='schoolAvgScore'><a></a></div></div>
+                                <p>全省的平均得分</p>
+                                <div class='scoreWrapper'><div id='allAvgScore'><a></a></div></div>
+                        </div>
+                        <div class='domainCompareCell cell'>
+                                <p>您答题的总题数</p>
+                                <div class='domainWrapper'><div id='yourDomain'><a></a></div></div>
+                                <p>您学校答对的平均总题数</p>
+                                <div class='domainWrapper'><div id='schoolAvgDomain'><a></a></div></div>
+                                <p>全省答对的平均总题数</p>
+                                <div class='domainWrapper'><div id='allAvgDomain'><a></a></div></div>
+                        </div>
+
+                    </div>
+                    <div class='column'>
+                        <div class='answerTitle'><a>您的题型得分</a></div>
+                        <div id='quesTypeTable'></div>
+                    </div>
+
+                    <div class='column'>
+                        <div class='answerTitle'><a>成绩分析</a></div>
+                        <div id='domainTable'></div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+        <script>
+             var paperTemplate = new PaperTemplate( 140, '{"index":["选择题","填空题","解答题"],"选择题":{"count":6,"score":42,"range":"1-6","values":"A,B,C,A,B,C","labels":"选择题题号,正确答案,您的答案,所属领域","domains":"ALG,ALG,ALG,ALG,GEO,GEO"},"填空题":{"count":4,"score":28,"range":"1-4","values":"4,8,10,12","labels":"填空题题号,正确答案,您的答案,所属领域","domains":"ALG,ALG,GEO,GEO"},"解答题":{"count":3,"score":70,"range":"1-3","values":"20,25,25","labels":"解答题题号,分值,您的分值,所属领域","domains":"ALG,ALG,GEO"}}', '{"index":["ALG","GEO","STA"],"ALG":{"name":"数与代数","count":8},"GEO":{"name":"图形与几何","count":5},"STA":{"name":"统计与概率","count":0}}' );
+            if ( paperTemplate.isValid() ){
+                paperTemplate.initTemplate();
+                var score = new Scores( paperTemplate, 77, '{"选择题":{"score":42,"urans":null,"print":"T,T,T,T,T,T"},"填空题":{"score":28,"urans":null,"print":"T,T,T,T"},"解答题":{"score":70,"urans":null,"print":"20,25,25"},"ALG":{"count":8,"print":8},"GEO":{"count":5,"print":5},"STA":{"count":0,"print":0}}', '{"选择题":{"avgscore":294},"填空题":{"avgscore":196},"解答题":{"avgscore":490},"ALG":{"avgcount":56},"GEO":{"avgcount":35},"STA":{"avgcount":0},"totalcount":7}', '{"选择题":{"avgscore":420},"填空题":{"avgscore":280},"解答题":{"avgscore":700},"ALG":{"avgcount":80},"GEO":{"avgcount":50},"STA":{"avgcount":0},"totalcount":10}' );
+
+               LoadQuesTypeScoreTableColumn( score.getMappedQuestionTypeScoreDataset() );
+               LoadDomainTypeTableColumn( score.getMappedDomainAnalysisDataset() );
+               //LoadNavigator();
+
+
+               var schoolCount = ( 4 ).toFixed( 3 ) / ( score._schoolDetail['totalcount'] ).toFixed( 3 );
+               var regionCount = (  8 ).toFixed( 3 ) / score._regionDetail['totalcount'];
+
+               $( '#schoolRank' ).html( ( schoolCount * 100 ).toFixed( 2 ) + '%');
+               $( '#regionRank' ).html( ( regionCount * 100 ).toFixed( 2 ) + '%');
+
+               LoadTable(score);
+               ////
+               tablecloth();
+            }
+        </script>    </body>
+</html>

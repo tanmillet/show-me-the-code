@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a5db133343c635e1dad7752e8a31d2e1",
+    "content-hash": "ed6adc93c23f026760f019ea7f2d22ec",
+    "packages": [
+        {
+            "name": "test089/lucasterrydemo089",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tanmillet/lucastantest.git",
+                "reference": "a487dc1dbda2014bf3a9ff65157dc98175c72445"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tanmillet/lucastantest/zipball/a487dc1dbda2014bf3a9ff65157dc98175c72445",
+                "reference": "a487dc1dbda2014bf3a9ff65157dc98175c72445",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Colors\\Green\\": "src/Colors/Green/",
+                    "Colors\\Red\\": "src/Colors/Red/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Terry Lucas",
+                    "email": "tanmillet@sina.com"
+                }
+            ],
+            "description": "''update test",
+            "time": "2017-09-27 07:25:02"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "test089/lucasterrydemo089": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

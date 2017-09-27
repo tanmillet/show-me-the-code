@@ -1,0 +1,1091 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.container{
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    margin: auto 0;
+    text-align: center;
+    min-width: 800px;
+    min-height: 520px;
+}
+
+.containerMask{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.65);
+    min-height: 520px;
+    min-width: 1000px;
+    width: 100%;
+    height: 100%;
+    z-index: 102;
+    display: none;
+}
+
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 50;
+
+    background: #000;
+    text-align: left;
+    min-width: 1000px;
+}
+
+.center{
+    min-width: 1000px;
+}
+
+.headerTitle{
+    position: relative;
+    font-family: 微软雅黑;
+    font-size: 15pt;
+    font-weight: 600;
+    left: 10%;
+    color: #fff;
+    padding: 4px 25px 6px 25px;
+    text-shadow: #C8C8C8 0px 0px 6px;
+    border-radius: 6px 6px 6px 6px;
+    background: #333429;
+}
+
+
+.leftHeader{
+    display: table;
+    position: relative;
+    top:10px;
+}
+
+.logoWrapper{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 20px 0 10px;
+}
+
+.loginUser{
+    display: table-cell;
+    width: 60px;
+    height: 30px;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    background-color: #fff;
+}
+.logo{
+    width: 24px;
+    height: 24px;
+    margin-top: 2px;
+}
+
+.logoWrapper span{
+    color: #fff;
+    font-family: 微软雅黑;
+    font-size: 16pt;
+    vertical-align: text-bottom;
+}
+
+.loginUserWrapper{
+    width: 60px;
+    height: auto;
+}
+
+.userAction{
+    float: left;
+    width: 12px;
+    height: 10px;
+    margin-top: 12px;
+    margin-left: 8px;
+    background: url("../img/dropdown_arrow.png") no-repeat;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+.loginPortrait{
+    position: relative;
+    top: 2px;
+    left: 6px;
+    width: 50px;
+    height: 30px;
+}
+
+.dropDownUserAction{
+    position: absolute;
+    left: 145px;
+    top: 30px;
+    z-index: 60;
+    width: 100px;
+    height: 80px;
+    background-color: #fff;
+    border: 1px solid #a0a0a0;
+    -webkit-box-shadow: 0px 0px 3px 0px #ADADAD;
+    -moz-box-shadow: 0px 0px 3px 0px #ADADAD;
+    box-shadow: 0px 0px 3px 0px #ADADAD;
+    display: none;
+    text-align: center;
+}
+
+.leftColumnContainer{
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    width: 10%;
+    min-width: 120px;
+    height: 100%;
+    min-height: 520px;
+    z-index: 30;
+    display: none;
+}
+
+.leftColumns{
+    position: relative;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    box-shadow: 0px 0px 27px #333333;
+    -webkit-box-shadow: 0px 0px 27px #333333;
+    -moz-box-shadow: 0px 0px 27px #333333;
+}
+
+.leftColumn{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background: rgba( 0,0, 0, 0.9);
+    border: #fff inset 1px;
+    box-shadow: inset 0px 0px 10px 5px #000;
+    -webkit-box-shadow: inset 0px 0px 10px 5px #000;
+    -moz-box-shadow: inset 0px 0px 10px 5px #000;
+    -o-box-shadow: inset 0px 0px 10px 5px #000;
+}
+
+.content{
+    float: right;
+    width: 100%;
+    height: 100%;
+    min-height: 520px;
+    background: url("../img/furley_bg.png");
+}
+
+.progressBar{
+    width: 100%;
+    height: 20px;
+    border: 3px solid #fff;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align:top;
+}
+
+.progress{
+    position: relative;
+    left: 1%;
+    top: 15%;
+    color: #fff;
+    height: 70%;
+    width: 0;
+    background-color: #fff;
+}
+
+.uploadProgressBox{
+    position: absolute;
+    width: 660px;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    margin-left: -330px;
+    margin-top: -120px;
+    z-index: 61;
+    text-align: left;
+    display: none;
+}
+
+.uploadProgressBox a, b{
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: 700;
+    padding: 0 6px;
+}
+
+.uploadProgressBox b{
+    font-family: 微软雅黑;
+}
+
+.tableTitle{
+    width: 100%;
+    min-width: 200px;
+    height: 20px;
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: 微软雅黑,黑体,Verdana;
+    text-align: left;
+    color: #393939;
+    text-shadow: 1px 1px 3px #a2a2a2;
+}
+
+table.headTabs{
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    left: auto;
+    right: 20px;
+    width: auto;
+    height: 100%;
+    border: none;
+}
+
+table.headTabs tbody{
+    vertical-align: middle;
+}
+
+td.headTab{
+    color: #fff;
+    height: 100%;
+    width: auto;
+    padding: 0 4px 0 4px;
+}
+
+.headTabInner{
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+
+}
+
+.headTabInner.currentPage{
+    position: relative;
+    color: #101010;
+    cursor: pointer;
+    width: auto;
+    top: 4px;
+    padding: 6px 0 14px 4px;
+    border: none;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    background: url("../img/furley_bg.png") center no-repeat;
+}
+
+.headTabInner.currentPage a{
+    border: none;
+    color: #808080;
+}
+
+.headTabInner img{
+    position: relative;
+    top: 3px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.headTabInner a{
+    position: relative;
+    left: 5px;
+    top: 0px;
+    padding: 0px 10px 0px 5px;
+    font-size: 11pt;
+    font-weight: 600;
+    font-family: 微软雅黑 sans-serif;
+}
+
+.listPages{
+    position: relative;
+    top: 13%;
+    left: 12%;
+    width: 80%;
+    height: 74%;
+    min-width: 300px;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+.page{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.page input[type="file"]{
+    display: none;
+}
+
+.notice{
+    display: table;
+    position: absolute;
+    text-align: center;
+    left: 24%;
+    bottom: 0px;
+    width: 55%;
+    height: 16%;
+    min-height: 50px;
+    background: #555555;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.templateDownload{
+    position: absolute;
+    text-align: center;
+    left: 0%;
+    top: 5%;
+    width: 10%;
+    height: 80%;
+    background: #555555;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.templateDownload:hover a{
+    color: #d4ccc0;
+}
+
+.templateDownload a{
+    color: #fff;
+    width: 10px;
+    height: 100%;
+    font-family: 黑体;
+    font-size: 14pt;
+}
+
+.templateDownload:after{
+    content: "";
+    position: absolute;
+    top: 45px;
+    right: -15px;
+    border-style: solid;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent #555555;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.notice a{
+    display: table-cell;
+    font-family: 黑体;
+    font-size: 12pt;
+    vertical-align: middle
+}
+
+.notice:after{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    border-style: solid;
+    border-width: 0 15px 15px;
+    border-color: #5b5b5b transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.dropArea{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    border-radius:10px;
+    border: 15px dotted #949494;
+    left: 20%;
+    top: 10px;
+    cursor: pointer;
+}
+
+.dropArea:hover{
+    border-color: #3590BF;
+}
+
+.dropArea:hover .fileAdd a{
+    color: #3590BF;
+}
+
+.fileAdd{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    left: 20%;
+    top: 20%;
+    display: table;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fileAdd a{
+    display: table-cell;
+    font-size: 120pt;
+    font-family: 黑体;
+    color: #656565;
+    font-weight: bold;
+}
+
+
+.contestantsTableWrapper{
+    width:100%;
+    height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.contestantsTable{
+    position: relative;
+    left: 1%;
+    top: 2px;
+    width:98%;
+    border-collapse:collapse;
+}
+
+td.dataCell{
+    text-align:center;
+    padding:.5em;
+    border:1px solid #171717;
+}
+th.title{
+    text-align:center;padding:.5em;
+    border-bottom: 3px solid #000;
+}
+th.title a{
+    color: #000;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.numberedNavigator{
+    position: relative;
+    left: 40%;
+    width: 20%;
+    height: auto;
+    top: 10px;
+    display: table;
+    min-height: 20px;
+}
+
+.searchColumn{
+    position: relative;
+    display: table-cell;
+    width: auto;
+    height: 30px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.searchSubmitWrapper{
+    position: absolute;
+    width: 25px;
+    top: 50%;
+    left: auto;
+    right: -7px;
+    height: 25px;
+    margin-top: -15px;
+    text-align: center;
+
+    background-color: #000;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border: 2px solid #fff;
+
+    z-index: 31;
+}
+
+.loginUsername{
+    position: relative;
+    top: 10px;
+    font-family: 微软雅黑;
+    font-size: 11pt;
+    font-weight: 600;
+    text-shadow: 0 0 1px #9C9C9C;
+    display: block;
+}
+
+.exit{
+    position: relative;
+    top: 15px;
+    padding: 0 6px;
+    background: #ea000f;
+    color: #fff;
+    font-size: 11pt;
+    cursor: pointer;
+    display: block;
+}
+
+.searchColumn:after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    top: 50%;
+    right: 0px;
+    height: 30px;
+    margin-top: -15px;
+    background-color: #000;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    z-index: 30;
+}
+
+.searchSubmit{
+    position: relative;
+    top: 50%;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    background: url("../img/search_submit.png") 100% 100% no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.search{
+    position: relative;
+    display: table-cell;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    background: #fff;
+    padding: 2px 35px 2px 10px;
+    border: 1px solid #b8b8b8;
+}
+
+.search :focus{
+    border: 10px solid #b8b8b8;
+}
+
+.searchHelperDropDown{
+    position: absolute;
+    left: 180px;
+    top: 35px;
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+    background: #fff;
+    text-align: left;
+    border: 2px solid #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: none;
+}
+
+.searchHelperDropDown:after{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 113px;
+    border-style: solid;
+    border-width: 0 17px 17px;
+    border-color: #fff transparent;
+    width: 0;
+    z-index: 1;
+}
+
+.searchHelperDropDown:before
+{
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 112px;
+    border-style: solid;
+    border-width: 0 16px 16px;
+    border-color: #000000 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+}
+
+.helperRow{
+    display: table;
+    padding-left: 10px;
+}
+
+.helperRow *{
+    display: table-cell;
+}
+
+.searchHelperDropDown a{
+    font-family: 宋体;
+    font-size: 11pt;
+    font-weight: 700;
+    color: #000;
+}
+
+.textInput{
+    width: 120px;
+}
+
+.numberInput{
+    width: 60px;
+}
+
+.bottomActionBox{
+    position: fixed;
+    width: 350px;
+    left: auto;
+    right: 8%;
+    height: 40px;
+    top: auto;
+    bottom: -40px;
+    border-bottom: 10px #000000 solid;
+}
+
+.panelActions{
+    position: relative;
+    left: 20px;
+    top: auto;
+    bottom: -17px;
+    width: 320px;
+    vertical-align: bottom;
+}
+
+.action{
+    text-align: center;
+    border-bottom: #000000 4px solid;
+    cursor: pointer;
+}
+
+.actionBoxEntry{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.actionBoxEntry div{
+    position: relative;
+    top: -5px;
+    width: 36px;
+    height: 20px;
+    background: url("../img/actionBox.png") no-repeat;
+}
+
+.actionBoxEntry div:hover{
+    background: url("../img/actionBox_act.png") no-repeat;
+}
+
+.action:hover{
+    border-bottom: #0ba1b5 4px solid;
+}
+
+.action a{
+    font-family: 微软雅黑;
+    font-size: 12pt;
+    font-weight: 700;
+    padding: 0 14px;
+}
+
+.numberedNavigator{
+    position: relative;
+    left: 40%;
+    width: 20%;
+    height: auto;
+    display: table;
+}
+
+.jumpButton{
+    cursor: pointer;
+    display: table-cell;
+    font-family: Tahoma;
+}
+
+.jumpButton a{
+    padding: 0 2px;
+}
+
+.jumpButton a:hover{
+    border: 1px solid #555555;
+}
+
+.numbered{
+    cursor: pointer;
+    display: table-cell;
+    background: none;
+    text-align: center;
+}
+
+.numbered a{
+    font-family: Tahoma;
+    padding: 5px 4px 0px 4px;
+    font-size: 10pt;
+}
+
+.numbered:hover{
+    border-bottom: 2px solid #555555;
+}
+
+.currentNumbered{
+    border-bottom: 2px solid #555555;
+}
+
+.currentNumbered a{
+    font-weight: 700;
+    font-size: 11pt;
+    color: #fff;
+    height: 100%;
+    background: #0ba1b5;
+}
+
+.columnTitle{
+    position: absolute;
+
+    height: 40px;
+    width: 120%;
+    background: #000;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid #fff;
+    border-bottom: 1px inset #fff;
+}
+
+.columnTitle a{
+    position: relative;
+    top: 10px;
+    font-family: 微软雅黑;
+    font-size: 12pt;
+    font-weight: 700;
+    color: #fff;
+}
+
+.columnTitle:after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -20px;
+    border-style: solid;
+    border-width: 20px 0 20px 20px;
+    border-color: transparent #000000;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.inlineAction{
+    width: auto;
+    height: 20px;
+    cursor: pointer;
+    display: table-cell;
+    padding-left: 20px;
+}
+
+.inlineAction img{
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+}
+
+.inlineAction a{
+    padding: 0 5px;
+    font-family: 新宋体;
+    font-size: 11pt;
+}
+
+.inlineAction a:hover{
+    border-bottom: #0ba1b5 1px solid;
+}
+
+.rowSelected{
+    background: papayawhip;
+}
+
+.commonDialog{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    padding: 20px 0;
+    z-index: 61;
+    left: 50%;
+    top: 50%;
+    margin: -200px 0 0 -200px;
+    display: none;
+    background: #fff;
+    box-shadow: inset 0px 0px 30px 0px #ABABAB,0px 0px 3px 2px #525252;
+    -webkit-box-shadow: inset 0px 0px 30px 0px #ABABAB,0px 0px 3px 2px #525252;
+    -moz-box-shadow: inset 0px 0px 30px 0px #ABABAB,0px 0px 3px 2px #525252;
+    -o-box-shadow: inset 0px 0px 30px 0px #ABABAB,0px 0px 3px 2px #525252;
+}
+
+.editInfoWrapper{
+    position: relative;
+    top: 4px;
+    left: 5%;
+    width: 90%;
+    padding: 4px;
+}
+
+.editInfoWrapper input{
+    border: 1px solid #555555;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    width: 80%;
+}
+
+.editScoreWrapper input{
+    max-width: 40px;
+}
+
+.trueOrFalseInput{
+    padding-left: 15px;
+}
+
+.scoreInput{
+    padding-left: 10px;
+}
+
+.editScoreWrapper{
+    position: relative;
+    top: 4px;
+    height: 210px;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.editInfoWrapper a{
+    font-family: 微软雅黑 新宋体;
+    font-size: 11pt;
+    font-weight: 600;
+    padding: 0 4px;
+}
+
+.editInfoWrapper span{
+    font-family: "Century Gothic" Kalinga Tahoma;
+    font-size: 17pt;
+    font-weight: 600;
+    color: #3860e5;
+    padding: 0 3px;
+}
+
+.scoreEdit{
+    border-top: 2px dashed #3860e5;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.commonButton{
+    width: auto;
+    height: 25px;
+    color: #fff;
+    background: #393939;
+    font-family: 微软雅黑 新宋体 arial;
+    font-size: 11pt;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    padding: 0 7px;
+    text-align: center;
+}
+
+.commonButton:hover{
+    background: #2961b0;
+}
+
+.dialogButtonGroup{
+    position: relative;
+    top: 5px;
+    left: 0px;
+    width: 90%;
+    height: auto;
+    padding: 3px 0;
+    text-align: right;
+}
+
+.boxHead{
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: 26px;
+    text-align: left;
+}
+
+.boxHead a{
+    float: left;
+    font-family: 微软雅黑;
+    font-size: 17pt;
+    font-weight: 600;
+    color: #2961b0;
+}
+
+.dialogExit{
+    float: right;
+    position: relative;
+    left: auto;
+    right: 20px;
+    bottom: -10px;
+    width: 16px;
+    height: 16px;
+    background: url("../img/exit.png");
+    cursor: pointer;
+}
+
+.actionTableWrapper{
+    position: relative;
+    left: 5%;
+    top: 15px;
+    width: 90%;
+    height: 80%;
+    overflow: auto;
+}
+
+.actionTable{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 99%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+.actionTable th a{
+    padding: 4px 6px;
+    font-family: 新宋体 Tahoma;
+    font-size: 11pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+.actionTable td{
+    font-family: 宋体;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.helperButtonGroup{
+    position: relative;
+    left: 10%;
+    top: 5px;
+    width: 80%;
+    height: auto;
+    padding: 3px 0;
+    text-align: left;
+}
+
+.helperButtonGroup a{
+    font-family: 宋体;
+    font-size: 10pt;
+    padding: 0 3px;
+}
+
+.editContent{
+    position: relative;
+    top: 5px;
+    left: 8%;
+    height: 85%;
+    width: 84%;
+}
+
+.editDetailTable{
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+}
+
+.editDetailTable th{
+    font-family: 新宋体 Tahoma;
+    font-size: 11pt;
+}
+
+.editDetailTable td{
+    font-size: 10pt;
+}
+
+.uploadMessageLabel{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 15px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.uploadOK{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 15px;
+    background: none;
+    border: 2px solid #fff;
+    text-shadow: 1px 1px 3px #000;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    font-size: 13pt;
+    font-weight: 600;
+    font-family: 微软雅黑 黑体;
+    cursor: pointer;
+}
+
+.downloadTemplateTipsWrapper{
+    position: relative;
+    top: 20%;
+    left: 15%;
+    width: 60%;
+    height: 50%;
+}
+
+.downloadTemplateTips{
+    display: block;
+    position: relative;
+    left: 30%;
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    word-break: break-all;
+    text-align: center;
+}
+
+.uploadResultMessage{
+    width: 100%;
+    max-height: 120px;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+
+.uploadResultMessage a{
+    padding-left: 5px;
+}
+
+.downloadTemplateIcon{
+    display: block;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 48px;
+    background: url("../img/download_template.png") center no-repeat;
+}
+
+.selectColumns{
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+
+.selectColumn{
+    padding: 20px 0;
+}
+
+.selectColumn a{
+    font-family: 微软雅黑 黑体;
+    font-size: 13pt;
+    font-weight: 700;
+}
+
+.selectColumn select{
+    width: 100px;
+}

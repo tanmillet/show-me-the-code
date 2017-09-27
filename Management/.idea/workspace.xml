@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Classes/ExcelUploader/PaperExcelParser.php" line="583" mnemonic="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="ba55b8d0-04bc-484a-b3a2-cc292f9e4877" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UploadPaperTemplate.php" afterPath="$PROJECT_DIR$/UploadPaperTemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/ExcelUploader/PaperExcelParser.php" afterPath="$PROJECT_DIR$/Classes/ExcelUploader/PaperExcelParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QueryScore.php" afterPath="$PROJECT_DIR$/QueryScore.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Objects/ContestPaper.php" afterPath="$PROJECT_DIR$/Classes/Objects/ContestPaper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UploadComment.php" afterPath="$PROJECT_DIR$/UploadComment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="management.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="management" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Management.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Management.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="30" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="5624">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pre_v1.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/pre_v1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryResult.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QueryResult.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="94" column="62" selection-start="3420" selection-end="3420" vertical-scroll-proportion="-35.107143" vertical-offset="803" max-vertical-offset="3724">
+              <folding>
+                <marker date="1398689800108" expanded="true" signature="2499:3154" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="2542:2985" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="2587:2893" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="2643:2866" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="3027:3131" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="3204:6408" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="3231:3494" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="3528:6393" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="3571:6375" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="3617:3764" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="3810:4412" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="3859:4098" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="4146:4385" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="4457:4627" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="4668:5907" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="4728:5266" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="5327:5879" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="5948:6101" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="6143:6298" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="6531:8058" placeholder="..." />
+                <marker date="1398689800108" expanded="true" signature="6704:8041" placeholder="{...}" />
+                <marker date="1398689800108" expanded="true" signature="7197:7767" placeholder="{...}" />
+                <marker date="1398689800108" expanded="true" signature="7246:7313" placeholder="{...}" />
+                <marker date="1398689800108" expanded="true" signature="7318:7483" placeholder="{...}" />
+                <marker date="1398689800108" expanded="true" signature="7531:7597" placeholder="{...}" />
+                <marker date="1398689800108" expanded="true" signature="7602:7750" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="management_full.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js_full/management_full.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pre_v1_full.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js_full/pre_v1_full.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="332" column="0" selection-start="12435" selection-end="12435" vertical-scroll-proportion="0.42363435" vertical-offset="5928" max-vertical-offset="12046">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryScore.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QueryScore.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="91" selection-start="2847" selection-end="2855" vertical-scroll-proportion="-15.428572" vertical-offset="1316" max-vertical-offset="2185">
+              <folding>
+                <marker date="1398693783044" expanded="true" signature="442:944" placeholder="..." />
+                <marker date="1398693783044" expanded="true" signature="461:796" placeholder="..." />
+                <marker date="1398693783044" expanded="true" signature="548:776" placeholder="..." />
+                <marker date="1398693783044" expanded="true" signature="596:751" placeholder="{...}" />
+                <marker date="1398693783044" expanded="true" signature="644:721" placeholder="{...}" />
+                <marker date="1398693783044" expanded="true" signature="815:925" placeholder="..." />
+                <marker date="1398693783044" expanded="true" signature="1538:2163" placeholder="..." />
+                <marker date="1398693783044" expanded="true" signature="1578:2310" placeholder="{...}" />
+                <marker date="1398693783044" expanded="true" signature="1699:2296" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateScores.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UpdateScores.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1577">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaperExcelParser.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/ExcelUploader/PaperExcelParser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="332" column="5" selection-start="12977" selection-end="12977" vertical-scroll-proportion="-169.64285" vertical-offset="1558" max-vertical-offset="14459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadPaperTemplate.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UploadPaperTemplate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="13" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="1444">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContestPaper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Objects/ContestPaper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="0" selection-start="5381" selection-end="5381" vertical-scroll-proportion="0.0" vertical-offset="2679" max-vertical-offset="3952">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/css/effect_fullscore_print.css" />
+        <option value="$PROJECT_DIR$/css/queryresult_print.css" />
+        <option value="$PROJECT_DIR$/css/management_main.css" />
+        <option value="$PROJECT_DIR$/Management.php" />
+        <option value="$PROJECT_DIR$/ManagementLogin.html" />
+        <option value="$PROJECT_DIR$/QueryContestants.php" />
+        <option value="$PROJECT_DIR$/Classes/ExcelUploader/ValueExcelParser.php" />
+        <option value="$PROJECT_DIR$/UploadScores.php" />
+        <option value="$PROJECT_DIR$/js/management_main_v1.js" />
+        <option value="$PROJECT_DIR$/QueryResult.php" />
+        <option value="$PROJECT_DIR$/UploadComment.php" />
+        <option value="$PROJECT_DIR$/Classes/Objects/ContestPaper.php" />
+        <option value="$PROJECT_DIR$/UploadPaperTemplate.php" />
+        <option value="$PROJECT_DIR$/QueryScore.php" />
+        <option value="$PROJECT_DIR$/Classes/ExcelUploader/PaperExcelParser.php" />
+        <option value="$PROJECT_DIR$/js_full/pre_v1_full.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js_full" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="vcs.Subversion" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\projects\management\management\Classes\ExcelUploader" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.QueryResult.php">
+    <configuration default="false" name="Management.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/management/Management.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="QueryResult.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/management/QueryResult.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="QueryResult.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/QueryResult.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UploadPaperTemplate.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/UploadPaperTemplate.php">
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="QueryScore.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/management/QueryScore.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Management.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.QueryResult.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.QueryResult.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.UploadPaperTemplate.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.QueryScore.php" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.QueryResult.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.QueryResult.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Management.php" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.QueryScore.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.UploadPaperTemplate.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba55b8d0-04bc-484a-b3a2-cc292f9e4877" name="Default" comment="" />
+      <created>1387194595839</created>
+      <updated>1387194595839</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17083333" sideWeight="0.64705884" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3529412" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2647059" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38071895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38071895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2254902" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24231333" sideWeight="0.7745098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2647059" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/UpdateScores.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/UpdateScores.php</url>
+          <line>56</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/Services/StatScoreService.php</url>
+          <line>189</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/Services/StatScoreService.php</url>
+          <line>359</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Auth.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/ExcelUploader/PaperExcelParser.php</url>
+          <line>249</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/ExcelUploader/PaperExcelParser.php</url>
+          <line>243</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/ExcelUploader/ScoreExcelParser.php</url>
+          <line>309</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/ExcelUploader/ScoreExcelParser.php</url>
+          <line>319</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/ExcelUploader/ValueExcelParser.php</url>
+          <line>208</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/ExcelUploader/ValueExcelParser.php</url>
+          <line>203</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/UploadComment.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/ExcelUploader/PaperExcelParser.php</url>
+          <line>107</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Classes/Database/DatabaseConnector.php</url>
+          <line>149</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/UploadPaperTemplate.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/QueryResult.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="286" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Classes/PHPExcel/Worksheet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="555" column="0" selection-start="12890" selection-end="12890" vertical-scroll-proportion="-3.3214285" vertical-offset="9996" max-vertical-offset="54891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/ExcelUploader/ValueExcelParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="5" selection-start="1354" selection-end="1354" vertical-scroll-proportion="27.928572" vertical-offset="1390" max-vertical-offset="1786">
+          <folding>
+            <element signature="n#__construct#0;n#ValueExcelParser#0;n#!!top" expanded="false" />
+            <element signature="n#getParsedComment#0;n#ValueExcelParser#0;n#!!top" expanded="false" />
+            <element signature="n#startParseHead#0;n#ValueExcelParser#0;n#!!top" expanded="false" />
+            <element signature="n#startParseData#0;n#ValueExcelParser#0;n#!!top" expanded="false" />
+            <element signature="n#allencode#0;n#ValueExcelParser#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QueryPaper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="50" selection-start="259" selection-end="265" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="380" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Objects/ApplyContestant.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="0" selection-start="6963" selection-end="7262" vertical-scroll-proportion="0.0" vertical-offset="3781" max-vertical-offset="5719">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadComment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="17" selection-start="2108" selection-end="2108" vertical-scroll-proportion="0.0" vertical-offset="1045" max-vertical-offset="1748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Database/DatabaseConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="0" selection-start="4811" selection-end="4811" vertical-scroll-proportion="0.0" vertical-offset="2527" max-vertical-offset="3306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadPaperTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="13" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0" vertical-offset="893" max-vertical-offset="1444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Objects/ContestPaper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="0" selection-start="5381" selection-end="5381" vertical-scroll-proportion="0.0" vertical-offset="2679" max-vertical-offset="3952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Management.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="30" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="5624">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pre_v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/ExcelUploader/PaperExcelParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="332" column="5" selection-start="12977" selection-end="12977" vertical-scroll-proportion="-169.64285" vertical-offset="1558" max-vertical-offset="14459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QueryScore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="91" selection-start="2847" selection-end="2855" vertical-scroll-proportion="-15.428572" vertical-offset="1316" max-vertical-offset="2185">
+          <folding>
+            <marker date="1398693783044" expanded="true" signature="442:944" placeholder="..." />
+            <marker date="1398693783044" expanded="true" signature="461:796" placeholder="..." />
+            <marker date="1398693783044" expanded="true" signature="548:776" placeholder="..." />
+            <marker date="1398693783044" expanded="true" signature="596:751" placeholder="{...}" />
+            <marker date="1398693783044" expanded="true" signature="644:721" placeholder="{...}" />
+            <marker date="1398693783044" expanded="true" signature="815:925" placeholder="..." />
+            <marker date="1398693783044" expanded="true" signature="1538:2163" placeholder="..." />
+            <marker date="1398693783044" expanded="true" signature="1578:2310" placeholder="{...}" />
+            <marker date="1398693783044" expanded="true" signature="1699:2296" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UpdateScores.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1577">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QueryResult.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="62" selection-start="3420" selection-end="3420" vertical-scroll-proportion="-35.107143" vertical-offset="803" max-vertical-offset="3724">
+          <folding>
+            <marker date="1398689800108" expanded="true" signature="2499:3154" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="2542:2985" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="2587:2893" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="2643:2866" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="3027:3131" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="3204:6408" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="3231:3494" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="3528:6393" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="3571:6375" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="3617:3764" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="3810:4412" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="3859:4098" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="4146:4385" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="4457:4627" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="4668:5907" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="4728:5266" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="5327:5879" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="5948:6101" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="6143:6298" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="6531:8058" placeholder="..." />
+            <marker date="1398689800108" expanded="true" signature="6704:8041" placeholder="{...}" />
+            <marker date="1398689800108" expanded="true" signature="7197:7767" placeholder="{...}" />
+            <marker date="1398689800108" expanded="true" signature="7246:7313" placeholder="{...}" />
+            <marker date="1398689800108" expanded="true" signature="7318:7483" placeholder="{...}" />
+            <marker date="1398689800108" expanded="true" signature="7531:7597" placeholder="{...}" />
+            <marker date="1398689800108" expanded="true" signature="7602:7750" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_full/management_full.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js_full/pre_v1_full.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="332" column="0" selection-start="12435" selection-end="12435" vertical-scroll-proportion="0.42363435" vertical-offset="5928" max-vertical-offset="12046">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

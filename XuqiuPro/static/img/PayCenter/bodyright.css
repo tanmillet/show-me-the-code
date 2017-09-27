@@ -1,0 +1,86 @@
+*{margin:0;padding: 0;list-style: none;text-decoration: none;}
+body{
+	background: url("../../Images/newc/bodybg.jpg") no-repeat;
+	padding-bottom: 20px;
+}
+.head{background: #fff;}
+.bodycontent{width: 1200px;margin: 0 auto;margin-top: 12px;}
+.bodyright{width: 908px;background: #fff;float: right;font-family: '微软雅黑';color:#6a6a6a;min-height: 738px;}
+.clear2{clear:both;}
+.brtr1{height: 48px;background: #f7f7f7;border:1px solid #dedede;line-height: 48px;}
+.brtr1-l{float: left;}
+.brtr1-r{float: right;color: #999;}
+.brtr2{margin-top:29px;margin-left:81px;font-size:16px;}
+.brtr2-body{margin-top:15px;margin-left:35px;}
+.platcoin{width:478px;height:45px;margin-left:3px;border:1px solid #9d9d9d;line-height:45px;margin-top:10px;}
+.brtr2-tr1{margin-top:20px;}
+.gamesel{margin-top:10px;}
+.selectgame{width:236px;height:44px;background:url(../../Images/PayCenter/selectgame.png) no-repeat;cursor:pointer;text-align:center;line-height:44px;display:inline-block;margin-top:10px;margin-left:80px;zoom:1;*display: inline;}
+.selectgame span,.selectserver span{margin:0 auto;color:#313131;}
+.selectserver{width:236px;height:44px;background:url(../../Images/PayCenter/selectserver.png) no-repeat;cursor:pointer;text-align:center;line-height:44px;display:inline-block;margin-left:30px;zoom:1;*display: inline;}
+.gamelist{width:569px;height:235px;background:url(../../Images/PayCenter/gamelist.png) no-repeat;margin-left:80px;margin-top:10px;position:absolute;}
+.gamelist .char,.serverlist .char{height:31px;line-height:31px;margin-top:8px;}
+.gamelist .char span,.serverlist .char span{margin-left:10px;height:31px;margin-top:4px;padding-left:5px;padding-right:5px;display:inline-block;cursor:pointer;zoom:1;*display: inline;}
+.gamelist .char .close{display:inline-block;width:22px;height:22px;background:url(../../Images/PayCenter/Close.png) no-repeat;position:absolute;top:13px;margin-left:60px;cursor:pointer;zoom:1;*display: inline;}
+.gamelist .newplay,.gamelist .gl,.serverlist .newplay,.serverlist .sl{margin-top:10px;margin-left:20px;}
+.serverlist .sl{margin-top: 15px;}
+.gl-pig{width:15px;height:16px;display:inline-block;zoom:1;*display: inline;}
+.gl-name{display:inline-block;margin-left:40px;zoom:1;*display: inline;}
+.gl label,.sl label,.moneyblock span{cursor:pointer;}
+.sl label{display: inline-block;width:90px;zoom:1;*display: inline;}
+.gl-a,.gl-b,.gl-c,.gl-d,.gl-e,.gl-f,.gl-g,.gl-h,.gl-i,.gl-j,.gl-k,.gl-l,.gl-m,.gl-n,.gl-o,.gl-p,.gl-q,.gl-r,.gl-s,.gl-t,.gl-u,.gl-v,.gl-w,.gl-x,.gl-y,.gl-z{display: none;}
+.gl-a .gl-pig{background:url(../../Images/PayCenter/24letter/A.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-b .gl-pig{background:url(../../Images/PayCenter/24letter/B.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-c .gl-pig{background:url(../../Images/PayCenter/24letter/C.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-d .gl-pig{background:url(../../Images/PayCenter/24letter/D.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-e .gl-pig{background:url(../../Images/PayCenter/24letter/E.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-f .gl-pig{background:url(../../Images/PayCenter/24letter/F.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-g .gl-pig{background:url(../../Images/PayCenter/24letter/G.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-h .gl-pig{background:url(../../Images/PayCenter/24letter/H.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-i .gl-pig{background:url(../../Images/PayCenter/24letter/I.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-j .gl-pig{background:url(../../Images/PayCenter/24letter/J.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-k .gl-pig{background:url(../../Images/PayCenter/24letter/K.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-l .gl-pig{background:url(../../Images/PayCenter/24letter/L.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-m .gl-pig{background:url(../../Images/PayCenter/24letter/M.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-n .gl-pig{background:url(../../Images/PayCenter/24letter/N.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-o .gl-pig{background:url(../../Images/PayCenter/24letter/O.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-p .gl-pig{background:url(../../Images/PayCenter/24letter/P.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-q .gl-pig{background:url(../../Images/PayCenter/24letter/Q.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-r .gl-pig{background:url(../../Images/PayCenter/24letter/R.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-s .gl-pig{background:url(../../Images/PayCenter/24letter/S.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-t .gl-pig{background:url(../../Images/PayCenter/24letter/T.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-u .gl-pig{background:url(../../Images/PayCenter/24letter/U.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-v .gl-pig{background:url(../../Images/PayCenter/24letter/V.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-w .gl-pig{background:url(../../Images/PayCenter/24letter/W.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-x .gl-pig{background:url(../../Images/PayCenter/24letter/X.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-y .gl-pig{background:url(../../Images/PayCenter/24letter/Y.png) no-repeat;position:absolute;margin-top:4px;}
+.gl-z .gl-pig{background:url(../../Images/PayCenter/24letter/Z.png) no-repeat;position:absolute;margin-top:4px;}
+.serverlist{width:747px;height:233px;background:url(../../Images/PayCenter/serverlist.png) no-repeat;position:absolute;margin-top:10px;}
+.serverlist .fr{display:inline-block;float:right;zoom:1;*display: inline;}
+.serverlist .fr input{width:100px;position:relative;top:-3px;}
+.serverlist .fr .confirm{display:inline-block;background:url(../../Images/PayCenter/confirm.png) no-repeat;width:36px;height:18px;position:relative;top:2px;cursor:pointer;zoom:1;*display: inline;}
+.serverlist .fr .close{display:inline-block;background:url(../../Images/PayCenter/Close.png) no-repeat;width:22px;height:22px;position:relative;top:3px;margin-right:8px;cursor:pointer;zoom:1;*display: inline;}
+.fr .magdiv{height:31px;line-height:31px;display:inline-block;margin:0;padding:0;zoom:1;*display: inline;}
+.gl input,.sl input{margin-left:10px;}
+.brtr2-tr2{margin-top:20px;}
+.brtr2-body label{cursor:pointer;}
+.brtr2-tr3{margin-left:25px;margin-top:10px;}
+.brtr2-tr3 .moneyblock{display:inline-block;margin-left:10px;width:120px;margin-top:10px;zoom:1;*display: inline;}
+.brtr2-tr4{margin-left:30px;margin-top:50px;}
+.page1submit{background:url(../../Images/PayCenter/click.png) no-repeat;margin-left:200px;width:285px;height:47px;cursor:pointer;margin-top:62px;}
+.bank{margin-left:50px;}
+.bank ul{width:700px;}
+.bank li{display:inline-block;width:200px;margin-left:20px;margin-top:20px;zoom:1;*display: inline;}
+.bank input{position:relative;height:46px;top:4px;}
+.current3{color:#f6611f;}
+
+
+
+
+
+
+
+
+
+
+

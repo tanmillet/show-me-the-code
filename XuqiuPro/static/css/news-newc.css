@@ -1,0 +1,91 @@
+/* the public css for css hacker */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select{margin:0;padding:0;}
+body{font:12px "宋体","Arial Narrow",HELVETICA;background:#FFF;-webkit-text-size-adjust:100%;color:#333;}
+a{text-decoration:none;color:#f88324;}
+a:hover{ color:#f88324}
+em{font-style:normal;}
+li{list-style:none;}
+img{border:0;vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+p{word-wrap:break-word;}
+.undis{display:none;}
+.dis{display:block;}
+.cf:after,.layout:after,.hd:after,.bd:after,.ft:after,.layoutli:after,.layoutdiv:after{content:"";display:table;clear:both;}
+.cf,.layout,.hd,.bd,.ft,.layoutli,.layoutdiv{*zoom:1;}
+.layout{ width:1000px; margin:0 auto}
+.fl{ float:left; _display:inline}
+.fr{ float:right; _display:inline}
+.yh{ font-family:"微软雅黑"; font-weight:normal;}
+.bgf{ background:#fff;}
+.posr{ position:relative;zoom:1}
+.mt{ margin-top:20px;}
+.borf{border:1px solid #c7d8e0; border-top:0px; background:#fff;}
+.bor{border:1px solid #c7d8e0; background:#fff;}
+/* public css*/
+.cbspan{display:block;clear:both;}
+
+/* news/*.html body css*/
+.body{background: url("../img/bodybg.jpg") repeat-x;padding-bottom:20px;font-family:"微软雅黑"; font-weight:normal;}
+.bodylayout{width:1200px;margin:0 auto;}
+.leftcont{float:left;width:924px;}
+	.newsnav{ background-color:#efeded;}
+		.newsnavlayout{border-bottom:2px solid #f6621f;height:32px;line-height:32px;}
+			.newsnavlayout a{color:#333;}
+			.newsnavlayout a:hover{color:#f88324;}
+			
+		.newsnavlayout1{}
+			.newsnavlayout1 a{height:32px;line-height:32px;float:left;border-bottom:2px solid #cfcfcf;padding:0 20px;}
+			.newsnavlayout1 .borderdiv{width:100%;height:32px;line-height:32px;border-bottom:2px solid #cfcfcf;}
+			.newsnavlayout1 a{color:#010101;}
+			.newsnavlayout1 a:hover{text-decoration:none;color:#f88324;border-bottom:2px solid #f6621f;}
+			.newsnavlayout1 a.currentlist{color:#f88324;border-bottom:2px solid #f6621f;}
+			
+	.newscont{background-color:#fff;padding:20px 90px;}
+		.news_title{color:#383838;font-size:18px;text-align:center;}
+		.news_time{color:#878585;padding-right:20px;text-align:right;}
+		.news_cont{padding-top:20px;font-size:14px;}
+	.newslistcont{background-color:#fff;padding:0 20px;}
+		.layoutli{text-indent:50px;}
+		.newscontul li{padding:10px 0 12px 0px;border-bottom:1px dashed #c1c1c1;}
+		.newscontul li div{padding-top:5px;}
+		.newscontul li div span{font-size:13px;color:#7c7c7c;padding:0px 30px 0px 5px;}
+		.newscontul li p a{font-size:16px;color:#5c5c5c;display:block;}
+		.newscontul li p a:hover{color:#f6611f;}
+		.newscontul li div a{float:right;font-size:13px;}
+		.newscontul li div a:hover{text-decoration:underline;}
+		.newslistpages{text-align:center;padding:10px 0px;}
+		.newslistpages a,.newslistpages span{padding:0 5px;}
+		
+		
+	
+.rightcont{float:right;width:258px;}
+	.rightlogin{}
+		.newsloginbox{border: 1px solid #fff;border-radius: 5px;}
+		.news_round_body{padding:0 15px;}
+		.round_body_contain{padding:0 10px;background:#fff url("../img/logintitlebg.png") repeat-x 0px 30px;}
+		.round_layout_li_gamename{float: left;padding-left: 15px;padding-top: 6px;}
+		.round_layout_li_gamename_server{margin-left:10px;}
+	.rightlist{padding-top:32px;}
+		.listtitle{ border-bottom:1px solid #f6621f;}
+			.colortitle_more{float:right;font-size:14px;line-height:14px;margin-top:20px;}
+			.listp{ border-bottom:1px solid #f9966a;}
+		.listcont{ border-top:1px solid #fccbb4;}
+			.list_tb{}
+			.list_tb li{background-color:#fff;padding:0 10px;}
+			.list_tb li.list_th{border-bottom:1px solid #f7f7f7;padding:0;}
+			.list_tb li.list_tr{padding:0 19px;}
+			.list_tr div{padding:8px 0;border-bottom:1px dashed #e6e6e6;}
+			.list_th_layout{border-bottom:1px solid #eeeeee;padding:5px 0;}
+			.list_thtd,.list_trtd{}
+				.list_thtd1{padding:0 20px;border-right:1px solid #e6e6e6;}
+				.list_thtd2{padding:0 25px 0 20px;border-right:1px solid #e6e6e6;}
+				.list_thtd3{padding:0 20px;}
+				.list_trtd1{display:inline-block;width:25%;text-align:left;color:#333;}
+				.list_trtd2{display:inline-block;width:30%;text-align:right;}
+				.list_trtd3{display:inline-block;width:40%;text-align:right;}
+			.list_tr_last div{border:none;}
+		
+
+.colortitle{font-size:20px;height:43px;line-height:43px;}
+.colortitle .span1{color:#f6611f;}
+.colortitle .span2{color:#4c4c4c;}

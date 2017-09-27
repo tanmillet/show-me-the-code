@@ -1,0 +1,97 @@
+@charset "utf-8";
+a, .logindiv .yz_img img{cursor:pointer;}
+/*登录*/
+
+.container{margin:10px auto; width:958px; background:#FFF;margin-bottom:10px; padding:0 ; border:1px solid #d6d6d6; overflow:hidden;}
+.register_container{width:auto;}
+.container h1{ font-family:"微软雅黑"; font-size:20px; color:#444; border-bottom:1px dotted #CCC; line-height:50px; height:50px; padding:2px 0 0 8px; margin:0 12px;}
+#login{ margin:25px 0 0 100px; float:left; display:inline; width:280px; border:0; background:#FFF; height:160px}
+#login ul li{ width:280px}
+#login .Code{ width:200px; float:left; font-size:12px; height:35px}
+#login .Code a{ color:#666; text-decoration: underline;}
+#login .Code input{ width:60px; color:#CCC}
+#breadCrumb{margin:0 auto; width:946px; height:34px; line-height:34px; margin-bottom:10px; color:#3f3f3f; padding-left:4px;}
+#breadCrumb a{color:#3f3f3f;}
+#breadCrumb em{ font-style:normal; color:#666}
+.reg{ width:450px; border-left:1px #CCC solid; float:right; margin:20px 0; padding:10px 0 10px 20px; }
+.reg h2{ font-size:18px; color:#df7955; font-family: "黑体"; font-weight:normal}
+.reg h2 span{ font-family:Arial, Helvetica, sans-serif}
+.reg ul{ padding:10px 0 10px 20px;}
+.reg ul li{ background:url(..img/icon.png) no-repeat 0 -267px; padding-left:20px; color:#666}
+.reg img{ margin:0 auto; display:block}
+.Service{ width:948px; float:left;border-top:1px solid #d6d6d6; padding:12px 15px; color:#666;}
+.Service a{ color:#444; margin-left:20px;}
+.Games{ width:948px; float:left;border-top:1px solid #d6d6d6; padding:15px; color:#999;}
+.Games b{ color:#C9170B; line-height:38px;}
+.Games a{ margin:0 0 0 18px; border:solid 1px #d6d6d6; width:80px; height:26px; display: inline; float:left; text-align:center; line-height:26px;}
+
+/*登录框*/
+#login h3{background:#fff url(..img/button.gif) -234px -75px;width:232px;height:28px;line-height:28px;text-indent:32px;color:#fff;font-size:12px;}
+#login .u_box{border:1px solid #F8BE63;width:230px;height:195px;background:#fff url(..img/index_07.gif) repeat-x 0 0;padding-top:5px;}
+#login form li{float:left;padding:12px 0 0;width:230px;}
+#login .ipt{width:160px;height:22px;line-height:22px;border:1px solid #F8BE63;text-indent:2px; background:#FFFDEC;}
+#login form label{float:left;font-weight:bold;line-height:24px;text-align:right;width:58px;padding-right:5px;}
+#login form .an input{float:left;margin-left:30px;}
+#login form .an a {background:url(..img/icon.png) no-repeat  0 -295px;color:#BB5400;display:inline;float:left;margin-left:12px;padding:4px 0 0 16px;width:60px;}
+#login form .Tips {clear:both;text-align:center;padding-bottom: 8px;}
+#login form .Tips a{ color:#1571AB; text-decoration:underline;}
+
+
+/*注册*/
+.tit{ border-bottom:1px solid #dcdcdc;padding:0 30px;position:relative; background:url(..img/txs.gif) repeat-x 0 bottom;width:898px;}
+.register_tit{width:auto;}
+.container h2{ font-family:"微软雅黑"; font-size:20px; color:#ff5a00; padding-top:15px; height:26px;width:898px;}
+.tit .sub_tit{ color:#7E7E7E;width:898px; height:30px;}
+.tit .register_sub_tit{width:auto;}
+.tit .sub_tit span{ float:right;}
+.tit .register_sub_tit span{padding-top:7px;}
+.tit .sub_tit span a{color:#67B500; text-decoration:underline;}
+.tit .sub_tit span a:hover{ text-decoration:none;}
+.register_tit_p{color:#fd652b;font-size:14px;padding-top:5px;}
+.form_wel_c{color:#999999;}
+.form_desc_c{color:#f6611f;}
+.logindiv{ padding:8px 30px; width:898px;}
+.register_logindiv{width:auto;padding:8px 30px 8px 200px;}
+.logindiv .log_link{ text-align:right; line-height:20px; height:60px; color:#7E7E7E;}
+.logindiv a{ color:#C63800; text-decoration:underline;}
+.logindiv a:hover{text-decoration:none;}
+.logindiv li{clear:both; padding:0 10px; font-size:12px;width:878px;height:38px;}
+.logindiv em{color:#f00; font-style:normal;display:inline-block;}
+.logindiv label{width:130px; text-align:right; color:#444; font-size:14px; display:inline-block;}
+.logindiv .txt1{width:260px; height:24px; border:1px solid #bbbbbb; line-height:24px; text-indent:2px;}
+.logindiv .read{ text-align:center;}
+.logindiv .read a{ color:#454545;text-decoration:underline;}
+.logindiv .read a:hover{ text-decoration:none;color:#67B500; }
+.logindiv .yz_img{ padding-left:8px; display:none; vertical-align:middle;}
+
+.logindiv .inputA{background:#fff4ea}
+.logindiv .inputB{border:1px solid #f00;}
+.Login_an{ text-align:center; padding-bottom:45px;}
+.btn_log{width: 158px; height:44px; background: url(..img/Login_en.gif); border: none; cursor:pointer;line-height:40px;}
+
+/*文本框提示状态*/
+.msgx{background:url(../img/paytishi.png) no-repeat;height:22px;font-size:12px; padding-left:35px;color:#7E7E7E; display:inline-block;}
+.msgA{ background-position:10px -29px;}
+.msgB{ background-position:10px -71px;}
+.msgC{ background-position:10px -113px;}
+.msgD{ background-position:10px -156px;}
+.msgE{ background-position:10px 0px;}
+.msg0{ background-position:10px 50px;}
+
+/*密码强弱*/
+.logindiv li span.Monitoring{padding-left:8px;margin-left:130px;display:inline-block;}
+.Monitoring em{width:104px;height:13px;display:inline-block; float:left;line-height:1px;overflow:hidden;  background:url(../img/pwdstrength.gif) no-repeat; text-indent:-20000px;}
+.Monitoring .Strength1{ background-position:0 0;}
+.Monitoring .Strength2{ background-position:0 -13px;}
+.Monitoring .Strength3{ background-position:0 -26px;}
+
+#email_auto_pop{position:absolute; border:#c7d7d6 1px solid; background-color:#effaff; z-index:10000}
+#email_auto_pop span{ display:block; height:20px; padding-left:5px; line-height:20px; padding-right:10px; cursor:pointer;}
+#email_auto_pop span.on{ background-color:#c7d7d6}
+
+/*弹出框*/
+.show_msg{ position:absolute; top:148px; right:6px; width:333px; height:244px; border:1px solid #FDE3AB; background:url(..img/show.gif); color:#7E7E7E;  z-index:1000;}
+.show_msg ul{ padding:3px 0 0 90px;}
+.show_msg li{ height:55px; line-height:25px; padding-top:5px;}
+.show_msg li strong{ display:block;}
+.show_msg a.close{ position:absolute; display:block; top:6px; right:5px; width:15px; height:15px; overflow:hidden; text-indent:-1000px; cursor:pointer;}

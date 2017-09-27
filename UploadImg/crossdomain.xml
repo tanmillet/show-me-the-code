@@ -1,0 +1,7 @@
+<?xml version="1.0"?> 
+<cross-domain-policy> 
+	<allow-access-from domain="*.96youxi.com" />
+	<allow-access-from domain="*.78youxi.com" />
+	<allow-access-from domain="*.3595.com" />
+	<allow-access-from domain="*.tangsan.com" />
+ </cross-domain-policy> 
