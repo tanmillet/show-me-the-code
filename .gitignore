@@ -1,3 +1,4 @@
 /vendor/
 .git
 ./Package/.idea
+./Laravel54/packages

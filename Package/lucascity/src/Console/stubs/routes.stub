@@ -1,0 +1,4 @@
+
+    Route::match(['get', 'post'], '/provinces', 'LucasCityController@provinces')->name('provinces');
+    Route::match(['get', 'post'], '/downtowns/{province}', 'LucasCityController@downtowns')->name('downtowns');
+    Route::match(['get', 'post'], '/countys/{downtown}', 'LucasCityController@countys')->name('countys');
