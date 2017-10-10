@@ -14,12 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LucasUpZip.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lucaszip/src/LucasUpZip.php">
+      <file leaf-file-name="TestDemo.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/TestDemo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1308">
+              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,6 +48,8 @@
         <option value="$PROJECT_DIR$/requirejs/requirejs.html" />
         <option value="$PROJECT_DIR$/lucaszip/src/LucasZip.php" />
         <option value="$PROJECT_DIR$/lucaszip/src/LucasUpZip.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/Singleton.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/TestDemo.php" />
       </list>
     </option>
   </component>
@@ -55,7 +59,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP7" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -100,6 +104,94 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="phpattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Package" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Package" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Structural" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Package" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Package" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Created" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SingletonPattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Package" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Package" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phpattern" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Created" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Package" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Package" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lucaszip" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -114,8 +206,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="F:/nodejs/node" />
@@ -198,12 +289,12 @@
       <updated>1506493385320</updated>
       <workItem from="1506493387103" duration="8937000" />
       <workItem from="1506649943948" duration="29000" />
-      <workItem from="1507615796201" duration="231000" />
+      <workItem from="1507615796201" duration="2572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9197000" />
+    <option name="totallyTimeSpent" value="11538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -873,9 +964,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lucaszip/src/LucasUpZip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-3956">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <marker date="1507616023152" expanded="true" signature="9:89" ph=" Class LucasUpZip ..." />
+            <marker date="1507616023152" expanded="true" signature="108:24761" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="1013:1118" ph=" Constructor ..." />
+            <marker date="1507616023152" expanded="true" signature="1147:1216" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="1300:1415" ph=" re inizilize all variables ..." />
+            <marker date="1507616023152" expanded="true" signature="1448:1624" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="1633:1752" ph=" Unzip all files in archive. ..." />
+            <marker date="1507616023152" expanded="true" signature="1840:3932" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="2040:2131" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="2208:3855" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="2540:2579" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="2752:2791" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="2851:3581" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="2926:3567" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="3052:3549" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="3211:3362" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="3629:3668" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="4016:4150" ph=" What extensions do we want out of this ZIP ..." />
+            <marker date="1507616023152" expanded="true" signature="4191:4244" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="4328:4442" ph=" Show error messages ..." />
+            <marker date="1507616023152" expanded="true" signature="4509:4586" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="4670:4784" ph=" Show debug messages ..." />
+            <marker date="1507616023152" expanded="true" signature="4851:4927" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="5011:5116" ph=" Save errors ..." />
+            <marker date="1507616023152" expanded="true" signature="5150:5196" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="5280:5366" ph=" ..." />
+            <marker date="1507616023152" expanded="true" signature="5400:5445" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="5529:5651" ph=" List all files in archive. ..." />
+            <marker date="1507616023152" expanded="true" signature="5709:6681" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="5761:5883" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="6017:6125" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="6274:6634" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="6434:6624" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="6765:6900" ph=" Unzip file in archive. ..." />
+            <marker date="1507616023152" expanded="true" signature="6987:8350" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="7040:7200" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="7338:7483" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="7540:7681" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="7729:7914" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="8012:8200" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="8258:8321" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="8434:8549" ph=" Free the file resource. ..." />
+            <marker date="1507616023152" expanded="true" signature="8579:8691" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="8644:8684" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="8775:8908" ph=" Free the file resource Automatic destroy. ..." />
+            <marker date="1507616023152" expanded="true" signature="8942:8978" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="9062:9229" ph=" Uncompress file. And save it to the targetFile. ..." />
+            <marker date="1507616023152" expanded="true" signature="9328:11099" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="9359:11092" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="9379:9481" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="9501:9606" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="9686:9814" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="9834:9935" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="9955:10081" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="10101:10332" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="10352:10464" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="10485:10621" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="10642:10837" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="10858:10961" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="10982:11083" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="11173:20150" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="11432:20120" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="11578:20110" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="11766:11842" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="11961:12037" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="12350:12426" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="12677:12762" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="12830:13355" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="13572:18518" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="15414:15511" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="15607:15703" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="16563:18451" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="16974:17266" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="18672:20066" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="18753:20048" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="19966:20026" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="20227:21119" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="20301:21087" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="20383:20671" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="20701:20837" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="21041:21077" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="21187:24759" ph="{...}" />
+            <marker date="1507616023152" expanded="true" signature="21232:21280" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="21367:24729" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="23426:24694" ph="..." />
+            <marker date="1507616023152" expanded="true" signature="23686:23922" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/Singleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <marker date="1507628981778" expanded="true" signature="70:173" ph=" Class Singleton ..." />
+            <marker date="1507628981778" expanded="true" signature="197:1007" ph="{...}" />
+            <marker date="1507628981778" expanded="true" signature="207:252" ph=" @author Terry Lucas ..." />
+            <marker date="1507628981778" expanded="true" signature="293:351" ph=" @author Terry Lucas ..." />
+            <marker date="1507628981778" expanded="true" signature="405:549" ph="{...}" />
+            <marker date="1507628981778" expanded="true" signature="451:507" ph="..." />
+            <marker date="1507628981778" expanded="true" signature="558:609" ph=" 反序列化对象时被调用 ..." />
+            <marker date="1507628981778" expanded="true" signature="643:701" ph="{...}" />
+            <marker date="1507628981778" expanded="true" signature="710:772" ph=" 使用 clone 关键字作对象复制时被调用 ..." />
+            <marker date="1507628981778" expanded="true" signature="805:862" ph="{...}" />
+            <marker date="1507628981778" expanded="true" signature="871:956" ph=" 构造函数，对象初始化时被调用 ..." />
+            <marker date="1507628981778" expanded="true" signature="993:1005" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/TestDemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1308">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

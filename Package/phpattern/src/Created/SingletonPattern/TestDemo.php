@@ -1,13 +1,19 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * Author Terry Lucas
+ * Date 17.10.10
+ * Time 17:50
+ */
 
 namespace TerryLucas2017\Pattern\Created\SingletonPattern;
 
 /**
- * Class Singleton
+ * Class TestDemo
  * Author Terry Lucas
  * @package TerryLucas2017\Pattern\Created\SingletonPattern
  */
-final class Singleton
+final class TestDemo
 {
     /**
      * @author Terry Lucas
@@ -17,19 +23,13 @@ final class Singleton
 
     /**
      * @author Terry Lucas
-     * @return Singleton
+     * TestDemo constructor.
      */
-    static public function getInstance(): Singleton
+    private function __construct()
     {
-        if (NULL === self::$instance) {
-            static::$instance = new  static();
-        }
-
-        return static::$instance;
     }
 
     /**
-     * 反序列化对象时被调用
      * @author Terry Lucas
      */
     private function __wakeup()
@@ -38,7 +38,6 @@ final class Singleton
     }
 
     /**
-     * 使用 clone 关键字作对象复制时被调用
      * @author Terry Lucas
      */
     private function __clone()
@@ -47,11 +46,15 @@ final class Singleton
     }
 
     /**
-     * 构造函数，对象初始化时被调用
      * @author Terry Lucas
-     * Singleton constructor.
+     * @return TestDemo
      */
-    private function __construct()
+    static public function getInstance(): TestDemo
     {
+        if (NULL === self::$instance) {
+            static::$instance = new static();
+        }
+
+        return static::$instance;
     }
 }
