@@ -15,8 +15,10 @@
         '/',
         function () {
 
+            app('lucaspattern')->exc();
 
-            return view('select');
+            return 'ok';
+//            return view('select');
 
             // $rb = function (){
             //   static $i = 9;
