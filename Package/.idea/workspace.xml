@@ -14,14 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestDemo.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/TestDemo.php">
+      <file leaf-file-name="LucasPatternProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phpattern/src/LucasPatternProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1308">
-              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,6 +48,15 @@
         <option value="$PROJECT_DIR$/lucaszip/src/LucasUpZip.php" />
         <option value="$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/Singleton.php" />
         <option value="$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/TestDemo.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Structural/Decorator/Component.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Structural/Decorator/ConcreteDecorator.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Structural/Decorator/ConcreteComponent.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Structural/Decorator/Decorator.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Structural/Decorator/IWuKong.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Structural/Decorator/WuKong72Bian.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Structural/Decorator/WuKong.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/LucasPattern.php" />
+        <option value="$PROJECT_DIR$/phpattern/src/Structural/Decorator/Fish.php" />
       </list>
     </option>
   </component>
@@ -82,6 +89,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -94,121 +102,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpattern" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpattern" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Structural" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpattern" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Created" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SingletonPattern" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phpattern" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Created" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Package" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lucaszip" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laravel54" />
     <property name="nodejs_interpreter_path" value="F:/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="F:\nodejs\node.exe" />
@@ -290,18 +191,19 @@
       <workItem from="1506493387103" duration="8937000" />
       <workItem from="1506649943948" duration="29000" />
       <workItem from="1507615796201" duration="2572000" />
+      <workItem from="1507790280455" duration="2087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11538000" />
+    <option name="totallyTimeSpent" value="13625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22395833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -331,16 +233,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/TestDemo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <marker date="1507629302412" expanded="true" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1507629302412" expanded="true" signature="155:257" ph=" Class TestDemo ..." />
+            <marker date="1507629302412" expanded="true" signature="280:1017" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="290:335" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="376:438" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="475:487" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="496:529" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="563:621" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="630:663" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="696:753" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="762:819" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="872:1015" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="918:973" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirejs/requirejs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <marker date="1506505733048" expanded="true" signature="31:335" ph="..." />
-            <marker date="1506505733048" expanded="true" signature="38:98" ph="..." />
-            <marker date="1506505733048" expanded="true" signature="105:327" ph="..." />
-            <marker date="1506505733048" expanded="true" signature="282:319" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -348,12 +266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <marker date="1506505733048" expanded="true" signature="31:335" ph="..." />
-            <marker date="1506505733048" expanded="true" signature="38:98" ph="..." />
-            <marker date="1506505733048" expanded="true" signature="105:327" ph="..." />
-            <marker date="1506505733048" expanded="true" signature="282:319" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,12 +316,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <marker date="1506505733048" expanded="true" signature="31:335" ph="..." />
-            <marker date="1506505733048" expanded="true" signature="38:98" ph="..." />
-            <marker date="1506505733048" expanded="true" signature="105:327" ph="..." />
-            <marker date="1506505733048" expanded="true" signature="282:319" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -417,69 +323,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <marker date="1482245834000" expanded="true" signature="48:220" ph=" Gets the version of the current Zend engine ..." />
-            <marker date="1482245834000" expanded="true" signature="255:493" ph=" Returns the number of arguments passed to the function ..." />
-            <marker date="1482245834000" expanded="true" signature="529:833" ph=" Return an item from the argument list ..." />
-            <marker date="1482245834000" expanded="true" signature="876:1168" ph=" Returns an array comprising a function's argument list ..." />
-            <marker date="1482245834000" expanded="true" signature="1204:1486" ph=" Get string length ..." />
-            <marker date="1482245834000" expanded="true" signature="1522:1900" ph=" Binary safe string comparison ..." />
-            <marker date="1482245834000" expanded="true" signature="1941:2427" ph=" Binary safe string comparison of the first n characters ..." />
-            <marker date="1482245834000" expanded="true" signature="2475:2872" ph=" Binary safe case-insensitive string comparison ..." />
-            <marker date="1482245834000" expanded="true" signature="2917:3428" ph=" Binary safe case-insensitive string comparison of the first n characters ..." />
-            <marker date="1482245834000" expanded="true" signature="3480:4107" ph=" Return the current key and value pair from an array and advance the array cursor ..." />
-            <marker date="1482245834000" expanded="true" signature="4147:6302" ph=" Sets which PHP errors are reported ..." />
-            <marker date="1482245834000" expanded="true" signature="6353:7176" ph=" Defines a named constant ..." />
-            <marker date="1482245834000" expanded="true" signature="7245:7537" ph=" Checks whether a given named constant exists ..." />
-            <marker date="1482245834000" expanded="true" signature="7572:8066" ph=" Returns the name of the class of an object ..." />
-            <marker date="1482245834000" expanded="true" signature="8112:8314" ph=" the &quot;Late Static Binding&quot; class name ..." />
-            <marker date="1482245834000" expanded="true" signature="8353:8868" ph=" Retrieves the parent class name for object or class ..." />
-            <marker date="1482245834000" expanded="true" signature="8921:9316" ph=" Checks if the class method exists ..." />
-            <marker date="1482245834000" expanded="true" signature="9373:9763" ph=" Checks if the object or class has a property ..." />
-            <marker date="1482245834000" expanded="true" signature="9818:10153" ph=" Checks if the trait exists ..." />
-            <marker date="1482245834000" expanded="true" signature="10209:10633" ph=" Checks if the class has been defined ..." />
-            <marker date="1482245834000" expanded="true" signature="10697:11100" ph=" Checks if the interface has been defined ..." />
-            <marker date="1482245834000" expanded="true" signature="11172:11604" ph=" Return true if the given function has been defined ..." />
-            <marker date="1482245834000" expanded="true" signature="11656:12011" ph=" Creates an alias for a class ..." />
-            <marker date="1482245834000" expanded="true" signature="12080:12584" ph=" Returns an array with the names of included or required files ..." />
-            <marker date="1482245834000" expanded="true" signature="12625:12779" ph=" Alias of &lt;b&gt;get_included_files&lt;/b&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="12820:13469" ph=" Checks if the object has this class as one of its parents ..." />
-            <marker date="1482245834000" expanded="true" signature="13548:14192" ph=" Checks if the object is of this class or has this class as one of its parents ..." />
-            <marker date="1482245834000" expanded="true" signature="14262:14651" ph=" Get the default properties of the class ..." />
-            <marker date="1482245834000" expanded="true" signature="14699:15118" ph=" Gets the properties of the given object ..." />
-            <marker date="1482245834000" expanded="true" signature="15163:15508" ph=" Gets the class methods' names ..." />
-            <marker date="1482245834000" expanded="true" signature="15559:16197" ph=" Generates a user-level error/warning/notice message ..." />
-            <marker date="1482245834000" expanded="true" signature="16272:16445" ph=" Alias of &lt;b&gt;trigger_error&lt;/b&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="16499:18100" ph=" Sets a user-defined error handler function ..." />
-            <marker date="1482245834000" expanded="true" signature="18187:18387" ph=" Restores the previous error handler function ..." />
-            <marker date="1482245834000" expanded="true" signature="18431:19034" ph=" Sets a user-defined exception handler function ..." />
-            <marker date="1482245834000" expanded="true" signature="19096:19298" ph=" Restores the previously defined exception handler function ..." />
-            <marker date="1482245834000" expanded="true" signature="19346:19908" ph=" Returns an array with the name of the defined classes ..." />
-            <marker date="1482245834000" expanded="true" signature="19951:20177" ph=" Returns an array of all declared interfaces ..." />
-            <marker date="1482245834000" expanded="true" signature="20223:20473" ph=" Returns an array of all declared traits ..." />
-            <marker date="1482245834000" expanded="true" signature="20514:20932" ph=" Returns an array of all defined functions ..." />
-            <marker date="1482245834000" expanded="true" signature="20976:21183" ph=" Returns an array of all defined variables ..." />
-            <marker date="1482245834000" expanded="true" signature="21222:21556" ph=" Create an anonymous (lambda-style) function ..." />
-            <marker date="1482245834000" expanded="true" signature="21606:22138" ph=" Returns the resource type ..." />
-            <marker date="1482245834000" expanded="true" signature="22185:22607" ph=" Returns an array with the names of all modules compiled and loaded ..." />
-            <marker date="1482245834000" expanded="true" signature="22675:23351" ph=" Find out whether an extension is loaded ..." />
-            <marker date="1482245834000" expanded="true" signature="23395:23784" ph=" Returns an array with the names of the functions of a module ..." />
-            <marker date="1482245834000" expanded="true" signature="23838:25068" ph=" Returns an associative array with the names of all the constants and their values ..." />
-            <marker date="1482245834000" expanded="true" signature="25131:27506" ph=" Generates a backtrace ..." />
-            <marker date="1482245834000" expanded="true" signature="27597:27708" ph=" Clear the most recent error ..." />
-            <marker date="1482245834000" expanded="true" signature="27828:28516" ph=" Prints a backtrace ..." />
-            <marker date="1482245834000" expanded="true" signature="28584:28762" ph=" Forces collection of any existing garbage cycles ..." />
-            <marker date="1482245834000" expanded="true" signature="28802:29007" ph=" Returns status of the circular reference collector ..." />
-            <marker date="1482245834000" expanded="true" signature="29040:29178" ph=" Activates the circular reference collector ..." />
-            <marker date="1482245834000" expanded="true" signature="29210:29351" ph=" Deactivates the circular reference collector ..." />
-            <marker date="1482245834000" expanded="true" signature="29384:29438" ph=" @param string $kind ..." />
-            <marker date="1482245834000" expanded="true" signature="29478:29480" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="29486:29536" ph=" @param int $cp ..." />
-            <marker date="1482245834000" expanded="true" signature="29574:29576" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="29582:29711" ph=" @param int|string $in_codepage ..." />
-            <marker date="1482245834000" expanded="true" signature="29790:29822" ph=" @return bool ..." />
-            <marker date="1482245834000" expanded="true" signature="29861:29863" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,260 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4247">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <marker date="1482245834000" expanded="true" signature="33:222" ph=" Exception that represents error in the program logic. This kind of ..." />
-            <marker date="1482245834000" expanded="true" signature="272:446" ph=" Exception thrown if a callback refers to an undefined function or if some ..." />
-            <marker date="1482245834000" expanded="true" signature="511:681" ph=" Exception thrown if a callback refers to an undefined method or if some ..." />
-            <marker date="1482245834000" expanded="true" signature="754:895" ph=" Exception thrown if a value does not adhere to a defined valid data domain. ..." />
-            <marker date="1482245834000" expanded="true" signature="951:1097" ph=" Exception thrown if an argument does not match with the expected value. ..." />
-            <marker date="1482245834000" expanded="true" signature="1162:1268" ph=" Exception thrown if a length is invalid. ..." />
-            <marker date="1482245834000" expanded="true" signature="1324:1514" ph=" Exception thrown when an illegal index was requested. This represents ..." />
-            <marker date="1482245834000" expanded="true" signature="1574:1712" ph=" Exception thrown if an error which can only be found on runtime occurs. ..." />
-            <marker date="1482245834000" expanded="true" signature="1764:1949" ph=" Exception thrown if a value is not a valid key. This represents errors ..." />
-            <marker date="1482245834000" expanded="true" signature="2012:2143" ph=" Exception thrown when you add an element into a full container. ..." />
-            <marker date="1482245834000" expanded="true" signature="2203:2476" ph=" Exception thrown to indicate range errors during program execution. ..." />
-            <marker date="1482245834000" expanded="true" signature="2533:2675" ph=" Exception thrown when you try to remove an element of an empty container. ..." />
-            <marker date="1482245834000" expanded="true" signature="2736:3059" ph=" Exception thrown if a value does not match with a set of values. Typically ..." />
-            <marker date="1482245834000" expanded="true" signature="3126:3240" ph=" The EmptyIterator class for an empty iterator. ..." />
-            <marker date="1482245834000" expanded="true" signature="3297:4476" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="3306:3467" ph=" Return the current element ..." />
-            <marker date="1482245834000" expanded="true" signature="3512:3681" ph=" Move forward to next element ..." />
-            <marker date="1482245834000" expanded="true" signature="3723:3909" ph=" Return the key of the current element ..." />
-            <marker date="1482245834000" expanded="true" signature="3950:4214" ph=" Checks if current position is valid ..." />
-            <marker date="1482245834000" expanded="true" signature="4257:4440" ph=" Rewind the Iterator to the first element ..." />
-            <marker date="1482245834000" expanded="true" signature="4482:4662" ph=" Filtered iterator using the callback to determine which items are accepted or rejected. ..." />
-            <marker date="1482245834000" expanded="true" signature="4768:5864" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="4777:5381" ph=" Creates a filtered iterator using the callback to determine which items are accepted or rejected. ..." />
-            <marker date="1482245834000" expanded="true" signature="5462:5828" ph=" This method calls the callback with the current value, current key and the inner iterator. ..." />
-            <marker date="1482245834000" expanded="true" signature="5870:6036" ph=" (PHP 5 &gt;= 5.4.0)&lt;br&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="6179:7236" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="6188:6609" ph=" Create a RecursiveCallbackFilterIterator from a RecursiveIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="6691:6927" ph=" Check whether the inner iterator's current element has children ..." />
-            <marker date="1482245834000" expanded="true" signature="6976:7194" ph=" Returns an iterator for the current entry. ..." />
-            <marker date="1482245834000" expanded="true" signature="7242:7409" ph=" Classes implementing &lt;b&gt;RecursiveIterator&lt;/b&gt; can be used to iterate ..." />
-            <marker date="1482245834000" expanded="true" signature="7471:8039" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="7480:7739" ph=" Returns if an iterator can be created for the current entry. ..." />
-            <marker date="1482245834000" expanded="true" signature="7785:8001" ph=" Returns an iterator for the current entry. ..." />
-            <marker date="1482245834000" expanded="true" signature="8045:8172" ph=" Can be used to iterate through recursive iterators. ..." />
-            <marker date="1482245834000" expanded="true" signature="8256:12757" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="8377:8625" ph=" Construct a RecursiveIteratorIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="8710:8909" ph=" Rewind the iterator to the first element of the top level inner iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="8953:9177" ph=" Check whether the current position is valid ..." />
-            <marker date="1482245834000" expanded="true" signature="9220:9384" ph=" Access the current key ..." />
-            <marker date="1482245834000" expanded="true" signature="9425:9614" ph=" Access the current element value ..." />
-            <marker date="1482245834000" expanded="true" signature="9659:9816" ph=" Move forward to the next element ..." />
-            <marker date="1482245834000" expanded="true" signature="9858:10080" ph=" Get the current depth of the recursive iteration ..." />
-            <marker date="1482245834000" expanded="true" signature="10126:10370" ph=" The current active sub iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="10428:10622" ph=" Get inner iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="10676:10828" ph=" Begin Iteration ..." />
-            <marker date="1482245834000" expanded="true" signature="10880:11028" ph=" End Iteration ..." />
-            <marker date="1482245834000" expanded="true" signature="11078:11278" ph=" Has children ..." />
-            <marker date="1482245834000" expanded="true" signature="11331:11522" ph=" Get children ..." />
-            <marker date="1482245834000" expanded="true" signature="11575:11725" ph=" Begin children ..." />
-            <marker date="1482245834000" expanded="true" signature="11776:11922" ph=" End children ..." />
-            <marker date="1482245834000" expanded="true" signature="11971:12117" ph=" Next element ..." />
-            <marker date="1482245834000" expanded="true" signature="12166:12447" ph=" Set max depth ..." />
-            <marker date="1482245834000" expanded="true" signature="12506:12716" ph=" Get max depth ..." />
-            <marker date="1482245834000" expanded="true" signature="12763:12910" ph=" Classes implementing &lt;b&gt;OuterIterator&lt;/b&gt; can be used to iterate ..." />
-            <marker date="1482245834000" expanded="true" signature="12968:13242" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="12977:13199" ph=" Returns the inner iterator for the current entry. ..." />
-            <marker date="1482245834000" expanded="true" signature="13249:13682" ph=" This iterator wrapper allows the conversion of anything that is ..." />
-            <marker date="1482245834000" expanded="true" signature="13757:15357" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="13766:13957" ph=" Create an iterator from anything that is traversable ..." />
-            <marker date="1482245834000" expanded="true" signature="14027:14246" ph=" Get the inner iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="14300:14447" ph=" Rewind to the first element ..." />
-            <marker date="1482245834000" expanded="true" signature="14491:14688" ph=" Checks if the iterator is valid ..." />
-            <marker date="1482245834000" expanded="true" signature="14731:14915" ph=" Get the key of the current element ..." />
-            <marker date="1482245834000" expanded="true" signature="14956:15133" ph=" Get the current value ..." />
-            <marker date="1482245834000" expanded="true" signature="15178:15323" ph=" Forward to the next element ..." />
-            <marker date="1482245834000" expanded="true" signature="15363:15624" ph=" This abstract iterator filters out unwanted values. This class should be extended to ..." />
-            <marker date="1482245834000" expanded="true" signature="15731:17512" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="15740:15981" ph=" Check whether the current element of the iterator is acceptable ..." />
-            <marker date="1482245834000" expanded="true" signature="16031:16191" ph=" Construct a filterIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="16258:16395" ph=" Rewind the iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="16439:16652" ph=" Check whether the current element is valid ..." />
-            <marker date="1482245834000" expanded="true" signature="16695:16847" ph=" Get the current key ..." />
-            <marker date="1482245834000" expanded="true" signature="16888:17064" ph=" Get the current element value ..." />
-            <marker date="1482245834000" expanded="true" signature="17109:17250" ph=" Move the iterator forward ..." />
-            <marker date="1482245834000" expanded="true" signature="17292:17466" ph=" Get the inner iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="17518:17819" ph=" This abstract iterator filters out unwanted values for a &lt;b&gt;RecursiveIterator&lt;/b&gt;. ..." />
-            <marker date="1482245834000" expanded="true" signature="17952:18856" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="17961:18170" ph=" Create a RecursiveFilterIterator from a RecursiveIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="18246:18498" ph=" Check whether the inner iterator's current element has children ..." />
-            <marker date="1482245834000" expanded="true" signature="18547:18815" ph=" Return the inner iterator's children contained in a RecursiveFilterIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="18862:19068" ph=" This extended FilterIterator allows a recursive iteration using RecursiveIteratorIterator that only shows those elements which have children. ..." />
-            <marker date="1482245834000" expanded="true" signature="19192:20294" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="19201:19403" ph=" Determines acceptability ..." />
-            <marker date="1482245834000" expanded="true" signature="19447:19617" ph=" Constructs a ParentIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="19693:19945" ph=" Check whether the inner iterator's current element has children ..." />
-            <marker date="1482245834000" expanded="true" signature="19994:20253" ph=" Return the inner iterator's children contained in a RecursiveFilterIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="20300:20444" ph=" Classes implementing &lt;b&gt;Countable&lt;/b&gt; can be used with the ..." />
-            <marker date="1482245834000" expanded="true" signature="20468:20749" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="20477:20717" ph=" Count elements of an object ..." />
-            <marker date="1482245834000" expanded="true" signature="20755:20844" ph=" The Seekable iterator. ..." />
-            <marker date="1482245834000" expanded="true" signature="20905:21167" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="20914:21127" ph=" Seeks to a position ..." />
-            <marker date="1482245834000" expanded="true" signature="21173:21341" ph=" The &lt;b&gt;LimitIterator&lt;/b&gt; class allows iteration over ..." />
-            <marker date="1482245834000" expanded="true" signature="21438:23597" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="21447:21670" ph=" Construct a LimitIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="21754:21923" ph=" Rewind the iterator to the specified starting offset ..." />
-            <marker date="1482245834000" expanded="true" signature="21967:22162" ph=" Check whether the current element is valid ..." />
-            <marker date="1482245834000" expanded="true" signature="22205:22365" ph=" Get current key ..." />
-            <marker date="1482245834000" expanded="true" signature="22406:22590" ph=" Get current element ..." />
-            <marker date="1482245834000" expanded="true" signature="22635:22775" ph=" Move the iterator forward ..." />
-            <marker date="1482245834000" expanded="true" signature="22817:23068" ph=" Seek to the given position ..." />
-            <marker date="1482245834000" expanded="true" signature="23119:23289" ph=" Return the current position ..." />
-            <marker date="1482245834000" expanded="true" signature="23338:23551" ph=" Get inner iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="23603:23729" ph=" This object supports cached iteration over another iterator. ..." />
-            <marker date="1482245834000" expanded="true" signature="23852:28323" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="24053:24274" ph=" Construct a new CachingIterator object for the iterator. ..." />
-            <marker date="1482245834000" expanded="true" signature="24371:24507" ph=" Rewind the iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="24551:24746" ph=" Check whether the current element is valid ..." />
-            <marker date="1482245834000" expanded="true" signature="24789:24942" ph=" Return the key for the current element ..." />
-            <marker date="1482245834000" expanded="true" signature="24983:25128" ph=" Return the current element ..." />
-            <marker date="1482245834000" expanded="true" signature="25173:25313" ph=" Move the iterator forward ..." />
-            <marker date="1482245834000" expanded="true" signature="25355:25567" ph=" Check whether the inner iterator has a valid next element ..." />
-            <marker date="1482245834000" expanded="true" signature="25612:25838" ph=" Return the string representation of the current element ..." />
-            <marker date="1482245834000" expanded="true" signature="25886:26090" ph=" Returns the inner iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="26144:26299" ph=" Get flags used ..." />
-            <marker date="1482245834000" expanded="true" signature="26345:26540" ph=" The setFlags purpose ..." />
-            <marker date="1482245834000" expanded="true" signature="26592:26816" ph=" The offsetGet purpose ..." />
-            <marker date="1482245834000" expanded="true" signature="26869:27187" ph=" The offsetSet purpose ..." />
-            <marker date="1482245834000" expanded="true" signature="27249:27485" ph=" The offsetUnset purpose ..." />
-            <marker date="1482245834000" expanded="true" signature="27540:27832" ph=" The offsetExists purpose ..." />
-            <marker date="1482245834000" expanded="true" signature="27888:28045" ph=" The getCache purpose ..." />
-            <marker date="1482245834000" expanded="true" signature="28091:28288" ph=" The number of elements in the iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="28329:28407" ph=" ... ..." />
-            <marker date="1482245834000" expanded="true" signature="28561:29698" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="28570:28972" ph=" Construct ..." />
-            <marker date="1482245834000" expanded="true" signature="29069:29327" ph=" Check whether the current element of the inner iterator has children ..." />
-            <marker date="1482245834000" expanded="true" signature="29376:29657" ph=" Return the inner iterator's children as a RecursiveCachingIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="29705:29805" ph=" This iterator cannot be rewinded. ..." />
-            <marker date="1482245834000" expanded="true" signature="29905:31444" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="29914:30078" ph=" Construct a NoRewindIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="30145:30317" ph=" Prevents the rewind operation on the inner iterator. ..." />
-            <marker date="1482245834000" expanded="true" signature="30361:30539" ph=" Validates the iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="30582:30736" ph=" Get the current key ..." />
-            <marker date="1482245834000" expanded="true" signature="30777:30939" ph=" Get the current value ..." />
-            <marker date="1482245834000" expanded="true" signature="30984:31129" ph=" Forward to the next element ..." />
-            <marker date="1482245834000" expanded="true" signature="31171:31398" ph=" Get the inner iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="31450:31584" ph=" An Iterator that iterates over several iterators one after the other. ..." />
-            <marker date="1482245834000" expanded="true" signature="31682:33928" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="31691:31820" ph=" Constructs an AppendIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="31869:32086" ph=" Appends an iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="32148:32286" ph=" Rewinds the Iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="32330:32522" ph=" Checks validity of the current element ..." />
-            <marker date="1482245834000" expanded="true" signature="32565:32751" ph=" Gets the current key ..." />
-            <marker date="1482245834000" expanded="true" signature="32792:32988" ph=" Gets the current value ..." />
-            <marker date="1482245834000" expanded="true" signature="33033:33174" ph=" Moves to the next element ..." />
-            <marker date="1482245834000" expanded="true" signature="33216:33398" ph=" Gets an inner iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="33452:33629" ph=" Gets an index of iterators ..." />
-            <marker date="1482245834000" expanded="true" signature="33683:33882" ph=" The getArrayIterator method ..." />
-            <marker date="1482245834000" expanded="true" signature="33934:34154" ph=" The &lt;b&gt;InfiniteIterator&lt;/b&gt; allows one to ..." />
-            <marker date="1482245834000" expanded="true" signature="34254:34694" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="34263:34429" ph=" Constructs an InfiniteIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="34496:34660" ph=" Moves the inner Iterator forward or rewinds it ..." />
-            <marker date="1482245834000" expanded="true" signature="34700:34847" ph=" This iterator can be used to filter another iterator based on a regular expression. ..." />
-            <marker date="1482245834000" expanded="true" signature="34942:39630" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="34951:35025" ph=" Return all matches for the current entry @see preg_match_all ..." />
-            <marker date="1482245834000" expanded="true" signature="35063:35137" ph=" Return the first match for the current entry @see preg_match ..." />
-            <marker date="1482245834000" expanded="true" signature="35173:35252" ph=" Only execute match (filter) for the current entry @see preg_match ..." />
-            <marker date="1482245834000" expanded="true" signature="35284:35369" ph=" Replace the current entry (Not fully implemented yet) @see preg_replace ..." />
-            <marker date="1482245834000" expanded="true" signature="35403:35479" ph=" Returns the split values for the current entry @see preg_split ..." />
-            <marker date="1482245834000" expanded="true" signature="35511:35586" ph=" Special flag: Match the entry key instead of the entry value. ..." />
-            <marker date="1482245834000" expanded="true" signature="35647:36246" ph=" Create a new RegexIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="36371:36539" ph=" Get accept status ..." />
-            <marker date="1482245834000" expanded="true" signature="36583:36743" ph=" Returns operation mode. ..." />
-            <marker date="1482245834000" expanded="true" signature="36788:37864" ph=" Sets the operation mode. ..." />
-            <marker date="1482245834000" expanded="true" signature="37914:38056" ph=" Get flags ..." />
-            <marker date="1482245834000" expanded="true" signature="38102:38753" ph=" Sets the flags. ..." />
-            <marker date="1482245834000" expanded="true" signature="38805:38959" ph=" Returns current regular expression ..." />
-            <marker date="1482245834000" expanded="true" signature="39004:39206" ph=" Returns the regular expression flags. ..." />
-            <marker date="1482245834000" expanded="true" signature="39256:39577" ph=" Sets the regular expression flags. ..." />
-            <marker date="1482245834000" expanded="true" signature="39636:39796" ph=" This recursive iterator can filter another recursive iterator via a regular expression. ..." />
-            <marker date="1482245834000" expanded="true" signature="39918:41313" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="39926:40554" ph=" Creates a new RecursiveRegexIterator. ..." />
-            <marker date="1482245834000" expanded="true" signature="40666:40947" ph=" Returns whether an iterator can be obtained for the current entry. ..." />
-            <marker date="1482245834000" expanded="true" signature="40996:41272" ph=" Returns an iterator for the current entry. ..." />
-            <marker date="1482245834000" expanded="true" signature="41319:41474" ph=" Allows iterating over a &lt;b&gt;RecursiveIterator&lt;/b&gt; to generate an ASCII graphic tree. ..." />
-            <marker date="1482245834000" expanded="true" signature="41588:46123" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="41843:42162" ph=" Construct a RecursiveTreeIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="42397:42537" ph=" Rewind iterator ..." />
-            <marker date="1482245834000" expanded="true" signature="42581:42774" ph=" Check validity ..." />
-            <marker date="1482245834000" expanded="true" signature="42817:43015" ph=" Get the key of the current element ..." />
-            <marker date="1482245834000" expanded="true" signature="43056:43247" ph=" Get current element ..." />
-            <marker date="1482245834000" expanded="true" signature="43292:43435" ph=" Move to next element ..." />
-            <marker date="1482245834000" expanded="true" signature="43477:43666" ph=" Begin iteration ..." />
-            <marker date="1482245834000" expanded="true" signature="43718:43862" ph=" End iteration ..." />
-            <marker date="1482245834000" expanded="true" signature="43912:44102" ph=" Has children ..." />
-            <marker date="1482245834000" expanded="true" signature="44155:44342" ph=" Get children ..." />
-            <marker date="1482245834000" expanded="true" signature="44395:44541" ph=" Begin children ..." />
-            <marker date="1482245834000" expanded="true" signature="44592:44734" ph=" End children ..." />
-            <marker date="1482245834000" expanded="true" signature="44783:44925" ph=" Next element ..." />
-            <marker date="1482245834000" expanded="true" signature="44974:45166" ph=" Get the prefix ..." />
-            <marker date="1482245834000" expanded="true" signature="45213:45593" ph=" Set a part of the prefix ..." />
-            <marker date="1482245834000" expanded="true" signature="45657:45855" ph=" Get current entry ..." />
-            <marker date="1482245834000" expanded="true" signature="45901:46083" ph=" Get the postfix ..." />
-            <marker date="1482245834000" expanded="true" signature="46129:46235" ph=" This class allows objects to work as arrays. ..." />
-            <marker date="1482245834000" expanded="true" signature="46337:54690" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="46345:46464" ph=" Properties of the object have their normal functionality when accessed as list (var_dump, foreach, etc.). ..." />
-            <marker date="1482245834000" expanded="true" signature="46504:46573" ph=" Entries can be accessed as properties (read and write). ..." />
-            <marker date="1482245834000" expanded="true" signature="46615:47071" ph=" Construct a new array object ..." />
-            <marker date="1482245834000" expanded="true" signature="47180:47470" ph=" Returns whether the requested index exists ..." />
-            <marker date="1482245834000" expanded="true" signature="47526:47804" ph=" Returns the value at the specified index ..." />
-            <marker date="1482245834000" expanded="true" signature="47857:48180" ph=" Sets the value at the specified index to newval ..." />
-            <marker date="1482245834000" expanded="true" signature="48242:48474" ph=" Unsets the value at the specified index ..." />
-            <marker date="1482245834000" expanded="true" signature="48529:48737" ph=" Appends the value ..." />
-            <marker date="1482245834000" expanded="true" signature="48787:49086" ph=" Creates a copy of the ArrayObject. ..." />
-            <marker date="1482245834000" expanded="true" signature="49136:49446" ph=" Get the number of public properties in the ArrayObject ..." />
-            <marker date="1482245834000" expanded="true" signature="49489:49668" ph=" Gets the behavior flags. ..." />
-            <marker date="1482245834000" expanded="true" signature="49714:50644" ph=" Sets the behavior flags. ..." />
-            <marker date="1482245834000" expanded="true" signature="50696:50835" ph=" Sort the entries by value ..." />
-            <marker date="1482245834000" expanded="true" signature="50878:51015" ph=" Sort the entries by key ..." />
-            <marker date="1482245834000" expanded="true" signature="51058:51646" ph=" Sort the entries with a user-defined comparison function and maintain key association ..." />
-            <marker date="1482245834000" expanded="true" signature="51703:52338" ph=" Sort the entries by keys using a user-defined comparison function ..." />
-            <marker date="1482245834000" expanded="true" signature="52395:52557" ph=" Sort entries using a &quot;natural order&quot; algorithm ..." />
-            <marker date="1482245834000" expanded="true" signature="52602:52786" ph=" Sort an array using a case insensitive &quot;natural order&quot; algorithm ..." />
-            <marker date="1482245834000" expanded="true" signature="52835:53109" ph=" Unserialize an ArrayObject ..." />
-            <marker date="1482245834000" expanded="true" signature="53169:53370" ph=" Serialize an ArrayObject ..." />
-            <marker date="1482245834000" expanded="true" signature="53417:53636" ph=" Create a new iterator from an ArrayObject instance ..." />
-            <marker date="1482245834000" expanded="true" signature="53685:53968" ph=" Exchange the array for another one. ..." />
-            <marker date="1482245834000" expanded="true" signature="54025:54334" ph=" Sets the iterator classname for the ArrayObject. ..." />
-            <marker date="1482245834000" expanded="true" signature="54403:54644" ph=" Gets the iterator classname for the ArrayObject. ..." />
-            <marker date="1482245834000" expanded="true" signature="54696:54860" ph=" This iterator allows to unset and modify values and keys while iterating ..." />
-            <marker date="1482245834000" expanded="true" signature="54973:61285" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="55042:55353" ph=" Construct an ArrayIterator ..." />
-            <marker date="1482245834000" expanded="true" signature="55430:55695" ph=" Check if offset exists ..." />
-            <marker date="1482245834000" expanded="true" signature="55751:56014" ph=" Get value for an offset ..." />
-            <marker date="1482245834000" expanded="true" signature="56067:56372" ph=" Set value for an offset ..." />
-            <marker date="1482245834000" expanded="true" signature="56434:56653" ph=" Unset value for an offset ..." />
-            <marker date="1482245834000" expanded="true" signature="56708:56913" ph=" Append an element ..." />
-            <marker date="1482245834000" expanded="true" signature="56963:57197" ph=" Get array copy ..." />
-            <marker date="1482245834000" expanded="true" signature="57247:57476" ph=" Count elements ..." />
-            <marker date="1482245834000" expanded="true" signature="57519:57668" ph=" Get flags ..." />
-            <marker date="1482245834000" expanded="true" signature="57714:58119" ph=" Set behaviour flags ..." />
-            <marker date="1482245834000" expanded="true" signature="58171:58307" ph=" Sort array by values ..." />
-            <marker date="1482245834000" expanded="true" signature="58350:58484" ph=" Sort array by keys ..." />
-            <marker date="1482245834000" expanded="true" signature="58527:58759" ph=" User defined sort ..." />
-            <marker date="1482245834000" expanded="true" signature="58816:59048" ph=" User defined sort ..." />
-            <marker date="1482245834000" expanded="true" signature="59105:59246" ph=" Sort an array naturally ..." />
-            <marker date="1482245834000" expanded="true" signature="59291:59454" ph=" Sort an array naturally, case insensitive ..." />
-            <marker date="1482245834000" expanded="true" signature="59503:59776" ph=" Unserialize ..." />
-            <marker date="1482245834000" expanded="true" signature="59836:60004" ph=" Serialize ..." />
-            <marker date="1482245834000" expanded="true" signature="60051:60198" ph=" Rewind array back to the start ..." />
-            <marker date="1482245834000" expanded="true" signature="60242:60412" ph=" Return current array entry ..." />
-            <marker date="1482245834000" expanded="true" signature="60457:60619" ph=" Return current array key ..." />
-            <marker date="1482245834000" expanded="true" signature="60660:60793" ph=" Move to next entry ..." />
-            <marker date="1482245834000" expanded="true" signature="60835:60992" ph=" Check whether array contains more entries ..." />
-            <marker date="1482245834000" expanded="true" signature="61035:61242" ph=" Seek to position ..." />
-            <marker date="1482245834000" expanded="true" signature="61291:61576" ph=" This iterator allows to unset and modify values and keys while iterating over Arrays and Objects ..." />
-            <marker date="1482245834000" expanded="true" signature="61732:62425" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="61775:62049" ph=" Returns whether current entry is an array or an object. ..." />
-            <marker date="1482245834000" expanded="true" signature="62098:62384" ph=" Returns an iterator for the current entry if it is an array or an object. ..." />
-            <marker date="1482245834000" expanded="true" signature="62431:62481" ph=" @param $arg ..." />
-            <marker date="1482245834000" expanded="true" signature="62512:62514" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="62519:62535" ph=" @since 7.1 ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,80 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19277">
           <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <marker date="1482245834000" expanded="true" signature="57:7004" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="94:275" ph=" Constructor for a job queue connection ..." />
-            <marker date="1482245834000" expanded="true" signature="332:811" ph=" Open a connection to a job queue ..." />
-            <marker date="1482245834000" expanded="true" signature="886:1240" ph=" Insert a new job to the queue, the Job is passed by reference because  ..." />
-            <marker date="1482245834000" expanded="true" signature="1286:1458" ph=" Return a Job object that describing a job in the queue ..." />
-            <marker date="1482245834000" expanded="true" signature="1501:1925" ph=" Update an existing job in the queue with it's new properties. If job doesn't exists,  ..." />
-            <marker date="1482245834000" expanded="true" signature="1973:2153" ph=" Remove a job from the queue ..." />
-            <marker date="1482245834000" expanded="true" signature="2204:2391" ph=" Suspend a job in the queue (without removing it) ..." />
-            <marker date="1482245834000" expanded="true" signature="2439:2674" ph=" Resume a suspended job in the queue ..." />
-            <marker date="1482245834000" expanded="true" signature="2721:2863" ph=" Requeue failed job back to the queue. ..." />
-            <marker date="1482245834000" expanded="true" signature="2908:3412" ph=" returns job statistics ..." />
-            <marker date="1482245834000" expanded="true" signature="3456:3651" ph=" Returns whether a script exists in the document root ..." />
-            <marker date="1482245834000" expanded="true" signature="3701:3816" ph=" Returns whether the queue is suspended ..." />
-            <marker date="1482245834000" expanded="true" signature="3856:4664" ph=" Return a list of jobs in the queue according to the options given in the filter_options parameter, doesn't return jobs in &quot;final states&quot; (failed, complete) ..." />
-            <marker date="1482245834000" expanded="true" signature="4779:5203" ph=" Return the number of jobs in the queue according to the options given in the filter_options parameter ..." />
-            <marker date="1482245834000" expanded="true" signature="5273:5361" ph=" Return all the hosts that jobs were submitted from. ..." />
-            <marker date="1482245834000" expanded="true" signature="5403:5486" ph=" Return all the application ids exists in queue. ..." />
-            <marker date="1482245834000" expanded="true" signature="5538:6220" ph=" Return finished jobs (either failed or successed) between time range allowing paging. ..." />
-            <marker date="1482245834000" expanded="true" signature="6322:6417" ph=" Suspends queue operation ..." />
-            <marker date="1482245834000" expanded="true" signature="6460:6554" ph=" Resumes queue operation ..." />
-            <marker date="1482245834000" expanded="true" signature="6596:6802" ph=" Return description of the last error occured in the queue object. After every ..." />
-            <marker date="1482245834000" expanded="true" signature="6845:6965" ph=" Sets a new maximum time for keeping historic jobs ..." />
-            <marker date="1482245834000" expanded="true" signature="7010:7264" ph=" Describing a job in a queue ..." />
-            <marker date="1482245834000" expanded="true" signature="7286:15043" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="7299:7373" ph=" Unique id of the Job in the job queue ..." />
-            <marker date="1482245834000" expanded="true" signature="7402:7505" ph=" Full path of the script that this job calls when it's processed ..." />
-            <marker date="1482245834000" expanded="true" signature="7538:7615" ph=" The host that the job was submit from ..." />
-            <marker date="1482245834000" expanded="true" signature="7642:7715" ph=" A short string describing the job ..." />
-            <marker date="1482245834000" expanded="true" signature="7743:7813" ph=" The job output after executing ..." />
-            <marker date="1482245834000" expanded="true" signature="7842:8043" ph=" The status of the job ..." />
-            <marker date="1482245834000" expanded="true" signature="8099:8384" ph=" The application id of the job ..." />
-            <marker date="1482245834000" expanded="true" signature="8432:8604" ph=" The priority of the job, options are the priority constants ..." />
-            <marker date="1482245834000" expanded="true" signature="8667:9099" ph=" Array holding all the variables that the user wants the job's script to have when it's called ..." />
-            <marker date="1482245834000" expanded="true" signature="9150:9876" ph=" Bit mask holding the global variables that the user want the job's script to have when it's called ..." />
-            <marker date="1482245834000" expanded="true" signature="9923:10295" ph=" The job may have a dependency (another job that must be performed before this job) ..." />
-            <marker date="1482245834000" expanded="true" signature="10340:10663" ph=" The time that this job should be performed, this variables is the UNIX timestamp. ..." />
-            <marker date="1482245834000" expanded="true" signature="10708:10934" ph=" The job running frequency in seconds. The job should run every _internal seconds ..." />
-            <marker date="1482245834000" expanded="true" signature="10974:11404" ph=" UNIX timestamp that it's the last time this job should occurs. If _interval was set, and _end_time ..." />
-            <marker date="1482245834000" expanded="true" signature="11444:11607" ph=" A bit that determine whether job can be deleted from history. When set, removeJob will not ..." />
-            <marker date="1482245834000" expanded="true" signature="11649:11914" ph=" Instantiate a Job object, describe all the information and properties of a job ..." />
-            <marker date="1482245834000" expanded="true" signature="11967:12686" ph=" Add the job the the specified queue (without instantiating a JobQueue object) ..." />
-            <marker date="1482245834000" expanded="true" signature="12754:12901" ph=" Set a new priority to the job ..." />
-            <marker date="1482245834000" expanded="true" signature="13381:13508" ph=" Get the job properties ..." />
-            <marker date="1482245834000" expanded="true" signature="13551:13641" ph=" Get the job output ..." />
-            <marker date="1482245834000" expanded="true" signature="14128:14485" ph=" Get the current status of the job ..." />
-            <marker date="1482245834000" expanded="true" signature="14527:14712" ph=" Get how much seconds there are until the next time the job will run.  ..." />
-            <marker date="1482245834000" expanded="true" signature="14762:14997" ph=" For recurring job get the status of the last execution. For simple job, ..." />
-            <marker date="1482245834000" expanded="true" signature="15050:15212" ph=" Disable/enable the Code Acceleration functionality at run time. ..." />
-            <marker date="1482245834000" expanded="true" signature="15264:15340" ph=" Disables output caching for currently running scripts. ..." />
-            <marker date="1482245834000" expanded="true" signature="15382:15613" ph=" Does not allow the cache to perform compression on the output of the current page. ..." />
-            <marker date="1482245834000" expanded="true" signature="15667:15942" ph=" Gets the code’s return value from the cache if it is there, if not - run function and cache the value. ..." />
-            <marker date="1482245834000" expanded="true" signature="16008:16278" ph=" If they cache for the key exists, output it, otherwise capture expression output, cache and pass it out. ..." />
-            <marker date="1482245834000" expanded="true" signature="16345:16523" ph=" Removes all the cache data for the given filename. ..." />
-            <marker date="1482245834000" expanded="true" signature="16573:16736" ph=" Remove cache data for the script with given URL (all dependent data is removed) ..." />
-            <marker date="1482245834000" expanded="true" signature="16785:16933" ph=" Remove item from PHP API cache by key ..." />
-            <marker date="1482245834000" expanded="true" signature="16982:17170" ph=" Puts data in cache according to the assigned key. ..." />
-            <marker date="1482245834000" expanded="true" signature="17219:17420" ph=" Gets cached data according to the assigned key. ..." />
-            <marker date="1482245834000" expanded="true" signature="17473:17780" ph=" If data for assigned key exists, this function outputs it and returns a value of true. ..." />
-            <marker date="1482245834000" expanded="true" signature="17836:18021" ph=" If output was captured by output_cache_exists, this function stops the output capture and stores ..." />
-            <marker date="1482245834000" expanded="true" signature="18061:18522" ph=" Should be called from a custom error handler to pass the error to the monitor. ..." />
-            <marker date="1482245834000" expanded="true" signature="18597:18677" ph=" Limited in the database to 255 chars ..." />
-            <marker date="1482245834000" expanded="true" signature="18732:18960" ph=" Creates a custom event with class $class, text $text and possibly severity and other user data ..." />
-            <marker date="1482245834000" expanded="true" signature="19050:19322" ph=" Create an HTTPERROR event ..." />
-            <marker date="1482245834000" expanded="true" signature="19400:19615" ph=" Returns an array containing information about ..." />
-            <marker date="1482245834000" expanded="true" signature="19657:20591" ph=" Allow you to register a user function as an event handler.When a monitor event is triggerd ..." />
-            <marker date="1482245834000" expanded="true" signature="20696:20933" ph=" Allow you to unregister an event handler. ..." />
-            <marker date="1482245834000" expanded="true" signature="20992:21405" ph=" Send a file using ZDS ..." />
-            <marker date="1482245834000" expanded="true" signature="21479:21907" ph=" Send a buffer using ZDS ..." />
-            <marker date="1482245834000" expanded="true" signature="21991:22146" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="21999:22109" ph=" Create Java object ..." />
-            <marker date="1482245834000" expanded="true" signature="22171:22298" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="22179:22267" ph=" Get Java exception that led to this exception ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,102 +378,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28205">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1482245834000" expanded="true" signature="36:133" ph=" A file archive, compressed with Zip. ..." />
-            <marker date="1482245834000" expanded="true" signature="155:22015" ph="..." />
-            <marker date="1482245834000" expanded="true" signature="161:262" ph=" Create the archive if it does not exist. ..." />
-            <marker date="1482245834000" expanded="true" signature="289:382" ph=" Error if archive already exists. ..." />
-            <marker date="1482245834000" expanded="true" signature="407:545" ph=" Perform additional consistency checks on the archive, and error if they fail. ..." />
-            <marker date="1482245834000" expanded="true" signature="575:723" ph=" Always start a new archive, this mode will overwrite the file if ..." />
-            <marker date="1482245834000" expanded="true" signature="753:840" ph=" Ignore case on name lookup ..." />
-            <marker date="1482245834000" expanded="true" signature="870:957" ph=" Ignore directory component ..." />
-            <marker date="1482245834000" expanded="true" signature="986:1067" ph=" Read compressed data ..." />
-            <marker date="1482245834000" expanded="true" signature="1101:1198" ph=" Use original data, ignoring changes. ..." />
-            <marker date="1482245834000" expanded="true" signature="1231:1319" ph=" better of deflate or store. ..." />
-            <marker date="1482245834000" expanded="true" signature="1351:1434" ph=" stored (uncompressed). ..." />
-            <marker date="1482245834000" expanded="true" signature="1463:1530" ph=" shrunk ..." />
-            <marker date="1482245834000" expanded="true" signature="1560:1642" ph=" reduced with factor 1 ..." />
-            <marker date="1482245834000" expanded="true" signature="1674:1756" ph=" reduced with factor 2 ..." />
-            <marker date="1482245834000" expanded="true" signature="1788:1870" ph=" reduced with factor 3 ..." />
-            <marker date="1482245834000" expanded="true" signature="1902:1984" ph=" reduced with factor 4 ..." />
-            <marker date="1482245834000" expanded="true" signature="2016:2085" ph=" imploded ..." />
-            <marker date="1482245834000" expanded="true" signature="2116:2185" ph=" deflated ..." />
-            <marker date="1482245834000" expanded="true" signature="2216:2286" ph=" deflate64 ..." />
-            <marker date="1482245834000" expanded="true" signature="2319:2396" ph=" PKWARE imploding ..." />
-            <marker date="1482245834000" expanded="true" signature="2435:2511" ph=" BZIP2 algorithm ..." />
-            <marker date="1482245834000" expanded="true" signature="2650:2720" ph=" No error. ..." />
-            <marker date="1482245834000" expanded="true" signature="2746:2845" ph=" Multi-disk zip archives not supported. ..." />
-            <marker date="1482245834000" expanded="true" signature="2878:2970" ph=" Renaming temporary file failed. ..." />
-            <marker date="1482245834000" expanded="true" signature="3000:3087" ph=" Closing zip archive failed ..." />
-            <marker date="1482245834000" expanded="true" signature="3116:3187" ph=" Seek error ..." />
-            <marker date="1482245834000" expanded="true" signature="3215:3286" ph=" Read error ..." />
-            <marker date="1482245834000" expanded="true" signature="3314:3386" ph=" Write error ..." />
-            <marker date="1482245834000" expanded="true" signature="3415:3485" ph=" CRC error ..." />
-            <marker date="1482245834000" expanded="true" signature="3512:3606" ph=" Containing zip archive was closed ..." />
-            <marker date="1482245834000" expanded="true" signature="3639:3713" ph=" No such file. ..." />
-            <marker date="1482245834000" expanded="true" signature="3742:3822" ph=" File already exists ..." />
-            <marker date="1482245834000" expanded="true" signature="3853:3929" ph=" Can't open file ..." />
-            <marker date="1482245834000" expanded="true" signature="3958:4052" ph=" Failure to create temporary file. ..." />
-            <marker date="1482245834000" expanded="true" signature="4084:4155" ph=" Zlib error ..." />
-            <marker date="1482245834000" expanded="true" signature="4184:4270" ph=" Memory allocation failure ..." />
-            <marker date="1482245834000" expanded="true" signature="4301:4384" ph=" Entry has been changed ..." />
-            <marker date="1482245834000" expanded="true" signature="4416:4510" ph=" Compression method not supported. ..." />
-            <marker date="1482245834000" expanded="true" signature="4546:4620" ph=" Premature EOF ..." />
-            <marker date="1482245834000" expanded="true" signature="4648:4725" ph=" Invalid argument ..." />
-            <marker date="1482245834000" expanded="true" signature="4755:4833" ph=" Not a zip archive ..." />
-            <marker date="1482245834000" expanded="true" signature="4863:4938" ph=" Internal error ..." />
-            <marker date="1482245834000" expanded="true" signature="4971:5056" ph=" Zip archive inconsistent ..." />
-            <marker date="1482245834000" expanded="true" signature="5087:5165" ph=" Can't remove file ..." />
-            <marker date="1482245834000" expanded="true" signature="5196:5279" ph=" Entry has been deleted ..." />
-            <marker date="1482245834000" expanded="true" signature="5314:5353" ph=" Status of the Zip Archive ..." />
-            <marker date="1482245834000" expanded="true" signature="5383:5429" ph=" System status of the Zip Archive ..." />
-            <marker date="1482245834000" expanded="true" signature="5462:5502" ph=" Number of files in archive ..." />
-            <marker date="1482245834000" expanded="true" signature="5534:5576" ph=" File name in the file system ..." />
-            <marker date="1482245834000" expanded="true" signature="5608:5645" ph=" Comment for the archive ..." />
-            <marker date="1482245834000" expanded="true" signature="5674:6919" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="6979:7212" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="7249:7491" ph=" Returns the status error message, system and/or zip messages ..." />
-            <marker date="1482245834000" expanded="true" signature="7538:7812" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.8.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="7863:8303" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="8369:9077" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="9169:9931" ph=" (PHP 5 &amp;gt;= 5.3.0, PECL zip &amp;gt;= 1.9.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="10016:10599" ph=" (PHP 5 &amp;gt;= 5.3.0, PECL zip &amp;gt;= 1.9.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="10688:11037" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.5.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="11096:11444" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.5.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="11501:11801" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.4.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="11858:12237" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="12299:12672" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.4.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="12735:13107" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.4.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="13168:13630" ph=" Set the compression method of an entry defined by its index ..." />
-            <marker date="1482245834000" expanded="true" signature="13718:14173" ph=" Set the compression method of an entry defined by its name ..." />
-            <marker date="1482245834000" expanded="true" signature="14261:14369" ph=" (PHP 5 &amp;gt;= 5.6.0, PECL zip &amp;gt;= 1.12.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="14423:14879" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.4.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="14947:15402" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.4.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="15468:15772" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.5.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="15821:16124" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.5.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="16171:16794" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.5.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="16854:17362" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="17424:17914" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.5.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="17976:18415" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.5.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="18480:18719" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="18766:18991" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="19034:19338" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="19389:19695" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.5.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="19744:20186" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="20256:20867" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="20943:21555" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.3.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="21633:21973" ph=" (PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.1.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="22021:22454" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="22494:22778" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="22814:23269" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="23304:24213" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="24280:24612" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="24660:25166" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="25229:25560" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="25611:25929" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="25976:26300" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-            <marker date="1482245834000" expanded="true" signature="26357:26693" ph=" (PHP 4 &amp;gt;= 4.1.0, PHP 5 &amp;gt;= 5.2.0, PECL zip &amp;gt;= 1.0.0)&lt;br/&gt; ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,7 +387,6 @@
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding>
             <marker date="1507616023152" expanded="true" signature="9:89" ph=" Class LucasUpZip ..." />
-            <marker date="1507616023152" expanded="true" signature="108:24761" ph="{...}" />
             <marker date="1507616023152" expanded="true" signature="1013:1118" ph=" Constructor ..." />
             <marker date="1507616023152" expanded="true" signature="1147:1216" ph="{...}" />
             <marker date="1507616023152" expanded="true" signature="1300:1415" ph=" re inizilize all variables ..." />
@@ -1063,7 +481,6 @@
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="18" />
           <folding>
             <marker date="1507628981778" expanded="true" signature="70:173" ph=" Class Singleton ..." />
-            <marker date="1507628981778" expanded="true" signature="197:1007" ph="{...}" />
             <marker date="1507628981778" expanded="true" signature="207:252" ph=" @author Terry Lucas ..." />
             <marker date="1507628981778" expanded="true" signature="293:351" ph=" @author Terry Lucas ..." />
             <marker date="1507628981778" expanded="true" signature="405:549" ph="{...}" />
@@ -1080,11 +497,178 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phpattern/src/Created/SingletonPattern/TestDemo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1308">
-          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="905">
+          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
           <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1507629302412" expanded="true" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1507629302412" expanded="true" signature="155:257" ph=" Class TestDemo ..." />
+            <marker date="1507629302412" expanded="true" signature="280:1017" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="290:335" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="376:438" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="475:487" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="496:529" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="563:621" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="630:663" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="696:753" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="762:819" ph=" @author Terry Lucas ..." />
+            <marker date="1507629302412" expanded="true" signature="872:1015" ph="{...}" />
+            <marker date="1507629302412" expanded="true" signature="918:973" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Structural/Bridge/HelloWorldService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="51" />
+          <folding>
+            <marker date="1503543330699" expanded="true" signature="63:166" ph=" Class HelloWorldService ..." />
+            <marker date="1503543330699" expanded="true" signature="208:338" ph="{...}" />
+            <marker date="1503543330699" expanded="true" signature="218:249" ph=" User: Terry Lucas ..." />
+            <marker date="1503543330699" expanded="true" signature="277:336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Structural/Decorator/ConcreteComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <marker date="1507791303914" expanded="false" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1507791303914" expanded="true" signature="151:258" ph=" Class ConcreteComponent ..." />
+            <marker date="1507791303914" expanded="true" signature="305:574" ph="{...}" />
+            <marker date="1507791303914" expanded="true" signature="316:387" ph=" @author Terry Lucas ..." />
+            <marker date="1507791303914" expanded="true" signature="423:435" ph="{...}" />
+            <marker date="1507791303914" expanded="true" signature="444:477" ph=" @author Terry Lucas ..." />
+            <marker date="1507791303914" expanded="true" signature="517:572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Structural/Decorator/Component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <marker date="1507790914742" expanded="true" signature="66:145" ph=" Created by PhpStorm. ..." />
+            <marker date="1507790914742" expanded="true" signature="167:210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Structural/Decorator/ConcreteDecorator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1507791221723" expanded="false" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1507791221723" expanded="true" signature="151:258" ph=" Class ConcreteDecorator ..." />
+            <marker date="1507791221723" expanded="true" signature="302:473" ph="{...}" />
+            <marker date="1507791221723" expanded="true" signature="312:345" ph=" @author Terry Lucas ..." />
+            <marker date="1507791221723" expanded="true" signature="385:471" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Structural/Decorator/Decorator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <marker date="1507791311565" expanded="true" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1507791311565" expanded="true" signature="151:250" ph=" Class Decorator ..." />
+            <marker date="1507791311565" expanded="true" signature="289:732" ph="{...}" />
+            <marker date="1507791311565" expanded="true" signature="299:354" ph=" @author Terry Lucas ..." />
+            <marker date="1507791311565" expanded="true" signature="388:486" ph=" @author Terry Lucas ..." />
+            <marker date="1507791311565" expanded="true" signature="542:592" ph="{...}" />
+            <marker date="1507791311565" expanded="true" signature="601:634" ph=" @author Terry Lucas ..." />
+            <marker date="1507791311565" expanded="true" signature="674:730" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Structural/Decorator/IWuKong.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <marker date="1507791721624" expanded="false" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1507791721624" expanded="false" signature="151:251" ph=" Author Terry Lucas ..." />
+            <marker date="1507791721624" expanded="true" signature="271:375" ph="{...}" />
+            <marker date="1507791721624" expanded="true" signature="281:336" ph=" @author Terry Lucas ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Structural/Decorator/WuKong.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding>
+            <marker date="1507791789364" expanded="false" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1507791789364" expanded="true" signature="152:248" ph=" Class WuKong ..." />
+            <marker date="1507791789364" expanded="true" signature="282:541" ph="{...}" />
+            <marker date="1507791789364" expanded="true" signature="293:353" ph=" @author Terry Lucas ..." />
+            <marker date="1507791789364" expanded="true" signature="389:402" ph="{...}" />
+            <marker date="1507791789364" expanded="true" signature="411:466" ph=" @author Terry Lucas ..." />
+            <marker date="1507791789364" expanded="true" signature="502:539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/LucasPattern.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <marker date="1507792027973" expanded="false" signature="46:512" ph="..." />
+            <marker date="1507792027973" expanded="true" signature="532:1038" ph="{...}" />
+            <marker date="1507792027973" expanded="true" signature="560:1036" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Structural/Decorator/WuKong72Bian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <marker date="1507791733588" expanded="false" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1507791733588" expanded="true" signature="152:254" ph=" Class WuKong72Bian ..." />
+            <marker date="1507791733588" expanded="true" signature="294:719" ph="{...}" />
+            <marker date="1507791733588" expanded="true" signature="305:357" ph=" @author Terry Lucas ..." />
+            <marker date="1507791733588" expanded="true" signature="385:480" ph=" @author Terry Lucas ..." />
+            <marker date="1507791733588" expanded="true" signature="531:572" ph="{...}" />
+            <marker date="1507791733588" expanded="true" signature="581:636" ph=" @author Terry Lucas ..." />
+            <marker date="1507791733588" expanded="true" signature="672:717" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/Structural/Decorator/Fish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1507792080544" expanded="false" signature="9:88" ph=" Created by PhpStorm. ..." />
+            <marker date="1507792080544" expanded="true" signature="152:246" ph=" Class Fish ..." />
+            <marker date="1507792080544" expanded="true" signature="280:765" ph="{...}" />
+            <marker date="1507792080544" expanded="true" signature="291:349" ph=" @author Terry Lucas ..." />
+            <marker date="1507792080544" expanded="true" signature="400:450" ph="{...}" />
+            <marker date="1507792080544" expanded="true" signature="459:514" ph=" @author Terry Lucas ..." />
+            <marker date="1507792080544" expanded="true" signature="550:631" ph="{...}" />
+            <marker date="1507792080544" expanded="true" signature="640:695" ph=" @author Terry Lucas ..." />
+            <marker date="1507792080544" expanded="true" signature="724:763" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpattern/src/LucasPatternProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,6 +7,8 @@ use TerryLucas2017\Pattern\Created\BuilderPattern\BuilderPattern;
 use TerryLucas2017\Pattern\Created\FactoryMethodPattern\FactoryMethodPattern;
 use TerryLucas2017\Pattern\Created\SimpleFactoryPattern\FactoryPattern;
 use TerryLucas2017\Pattern\Created\SingletonPattern\Singleton;
+use TerryLucas2017\Pattern\Structural\Decorator\Fish;
+use TerryLucas2017\Pattern\Structural\Decorator\WuKong;
 
 class LucasPattern
 {
@@ -31,6 +33,10 @@ class LucasPattern
         //建造者模式测试
         $op = new BuilderPattern();
         $op->exc();
+
+        $wukong = new WuKong();
+
+        $fish = new Fish($wukong);
 
     }
 }
