@@ -181,6 +181,8 @@ return [
         \TerryLucasInterFaceLog\Logger\TerryLucasLoggerProvider::class,
         // \Prettus\RequestLogger\Providers\LoggerServiceProvider::class,
         \TerryLucas2017\Pattern\LucasPatternProvider::class,
+
+        \TCG\Voyager\VoyagerServiceProvider::class,
     ],
 
     /*
