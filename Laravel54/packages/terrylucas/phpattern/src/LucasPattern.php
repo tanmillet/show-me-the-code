@@ -10,6 +10,8 @@ use TerryLucas2017\Pattern\Created\SingletonPattern\Singleton;
 use TerryLucas2017\Pattern\Structural\Decorator\Bird;
 use TerryLucas2017\Pattern\Structural\Decorator\Fish;
 use TerryLucas2017\Pattern\Structural\Decorator\WuKong;
+use TerryLucas2017\Pattern\Structural\Proxy\ProxySubject;
+use TerryLucas2017\Pattern\Structural\Proxy\RealSubject;
 
 class LucasPattern
 {
@@ -35,13 +37,16 @@ class LucasPattern
         // $op = new BuilderPattern();
         // $op->exc();
 
-        $wukong = new WuKong();
-        $fish = new Fish($wukong);
-        $bird = new Bird($fish);
+        // $wukong = new WuKong();
+        // $fish = new Fish($wukong);
+        // $bird = new Bird($fish);
+        //
+        // dump($fish->say());
+        // dump($fish->swim());
+        // dump($bird->swim());
 
-        dump($fish->say());
-        dump($fish->swim());
-        dump($bird->swim());
+        $proxy = new ProxySubject(new RealSubject());
+        dump($proxy->lucasRequest());
 
     }
 }
