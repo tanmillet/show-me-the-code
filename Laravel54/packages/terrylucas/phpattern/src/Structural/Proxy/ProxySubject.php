@@ -41,7 +41,7 @@ class ProxySubject extends Subject
 
         //request before
         $subject .= $this->preRequest();
-        // TODO: Implement lucasRequest() method.
+
         $subject .= $this->realSubject->lucasRequest();
 
         //request after
