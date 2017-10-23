@@ -27,7 +27,8 @@
         "psr-4": {
             "App\\": "app/",
             "TerryLucasInterFaceLog\\Logger\\": "packages/terrylucas/interfacelogs/src/",
-            "TerryLucas2017\\Pattern\\": "packages/terrylucas/phpattern/src/"
+            "TerryLucas2017\\Pattern\\": "packages/terrylucas/phpattern/src/",
+            "TerryLucas2017\\Interview\\": "packages/terrylucas/interview/src/"
         }
     },
     "autoload-dev": {

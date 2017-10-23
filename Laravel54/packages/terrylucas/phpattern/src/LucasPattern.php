@@ -2,6 +2,7 @@
 
 namespace TerryLucas2017\Pattern;
 
+use TerryLucas2017\Interview\Demo01;
 use TerryLucas2017\Pattern\Created\AbstractFactoryPattern\AbstractFactoryPattern;
 use TerryLucas2017\Pattern\Created\BuilderPattern\BuilderPattern;
 use TerryLucas2017\Pattern\Created\FactoryMethodPattern\FactoryMethodPattern;
@@ -61,11 +62,14 @@ class LucasPattern
         // $client->activate();
         // $client->disactivate();
 
-        $composite = new FormElement();
-        $composite->addElements(new TextElement('姓名：'));
-        $composite->addElements(new InputElement());
-        $composite->addElements(new TextElement('密码：'));
-        $composite->addElements(new InputElement());
-        dump($composite->reader());
+        // $composite = new FormElement();
+        // $composite->addElements(new TextElement('姓名：'));
+        // $composite->addElements(new InputElement());
+        // $composite->addElements(new TextElement('密码：'));
+        // $composite->addElements(new InputElement());
+        // dump($composite->reader());
+
+        $demo01 = new  Demo01();
+        dump($demo01->index());
     }
 }
