@@ -7,6 +7,9 @@ use TerryLucas2017\Pattern\Created\BuilderPattern\BuilderPattern;
 use TerryLucas2017\Pattern\Created\FactoryMethodPattern\FactoryMethodPattern;
 use TerryLucas2017\Pattern\Created\SimpleFactoryPattern\FactoryPattern;
 use TerryLucas2017\Pattern\Created\SingletonPattern\Singleton;
+use TerryLucas2017\Pattern\Structural\Composite\FormElement;
+use TerryLucas2017\Pattern\Structural\Composite\InputElement;
+use TerryLucas2017\Pattern\Structural\Composite\TextElement;
 use TerryLucas2017\Pattern\Structural\Facade\Alarm;
 use TerryLucas2017\Pattern\Structural\Facade\Camera;
 use TerryLucas2017\Pattern\Structural\Facade\Client;
@@ -54,8 +57,15 @@ class LucasPattern
         // $proxy = new ProxySubject(new RealSubject());
         // dump($proxy->lucasRequest());
 
-        $client = new Client(new SecurityFacade(new Light(), new Alarm(), new Sensor(), new Camera()));
-        $client->activate();
-        $client->disactivate();
+        // $client = new Client(new SecurityFacade(new Light(), new Alarm(), new Sensor(), new Camera()));
+        // $client->activate();
+        // $client->disactivate();
+
+        $composite = new FormElement();
+        $composite->addElements(new TextElement('姓名：'));
+        $composite->addElements(new InputElement());
+        $composite->addElements(new TextElement('密码：'));
+        $composite->addElements(new InputElement());
+        dump($composite->reader());
     }
 }
