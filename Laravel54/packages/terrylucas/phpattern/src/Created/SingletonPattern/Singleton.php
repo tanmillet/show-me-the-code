@@ -53,5 +53,6 @@ final class Singleton
      */
     private function __construct()
     {
+        // TODO: Implement __construct() method.
     }
 }

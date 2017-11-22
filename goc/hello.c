@@ -1,5 +1,7 @@
 #include<stdio.h>
+#include<errno.h>
 #include<string.h>
+#include "demo.c"
 
 int global = 1;
 extern int lucasAbc;
@@ -19,7 +21,7 @@ typedef struct Books {
     char author[50];
     char subject[100];
     int  book_id;
-};
+} books;
 
 //共用体
 union Data {
@@ -34,7 +36,50 @@ struct {
     unsigned int age : 3; //000 ------ 0 //111 --------- 7
 } Age;
 
+//宏定义
+
+#define square(x) ((x)*(x))
+
+#define square_1(x) (x*x)
+
+extern int errno;
+
 int main(void) {
+
+
+    demo1();
+
+    return 0;
+
+    /**FILE * pf;
+    int errnum;
+    pf = fopen("test1.txt", "rb");
+
+    if(pf == NULL) {
+        errnum = errno;
+        fprintf( stderr, "error %d\n", errno);
+        perror("use perror print error");
+        fprintf(stderr, "open file error : %s\n", strerror(errnum));
+    }
+    else {
+        fclose(pf);
+    }
+
+    return 0;**/
+
+    printf("File : %s\n", __FILE__ );
+
+    printf("square 5+4 is %d\n", square(5 + 4)); //(5+4) * (5+4)
+    printf("square_1 5+4 is %d\n", square_1(5 + 4)); // 5+4*5+4
+
+    //文件写入
+    FILE *fp = NULL;
+    fp = fopen("test.txt", "w+");
+    fprintf(fp, "this is test...\n");
+    fputs("This is testing for fputs...\n", fp);
+    fclose(fp);
+
+    return 0;
 
     //题目：有1、2、3、4个数字，能组成多少个互不相同且无重复数字的三位数？都是多少？
     int i, j, k;
@@ -47,7 +92,7 @@ int main(void) {
                 //    printf("%d,%d,%d\n", i, j, k);
                 //}
 
-                  printf("%d,%d,%d\n", i, j, k);
+                printf("%d,%d,%d\n", i, j, k);
             }
         }
     }
@@ -99,7 +144,7 @@ int main(void) {
     printf("Age.age : %d\n", Age.age);
 
 
-    Age.age = 8; //1000
+    //Age.age = 8; //1000
 
     printf("Sizeof (Age) : %d\n", sizeof(Age));
     printf("Age.age : %d\n", Age.age);
